@@ -2,6 +2,7 @@
   "name": "rise",
   "version": "0.1.0",
   "private": true,
+  "home": "https://floatstl.github.io/rise-conference/",
   "devDependencies": {
     "react-scripts": "0.9.0"
   },
