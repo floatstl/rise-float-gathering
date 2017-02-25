@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import BurgerMenu from 'react-burger-menu';
+import Headroom from 'react-headroom';
 import './styles/App.css';
 
 let App = React.createClass({
@@ -64,6 +65,10 @@ let App = React.createClass({
     return (
       <div id="outer-container" style={{height: '100%'}}>
         {this.getMobileMenu()}
+        <Headroom>
+          <h1>You can put anything you'd like inside the Headroom Component</h1>
+        </Headroom>
+        
       </div>
     );
   }
