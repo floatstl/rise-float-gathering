@@ -130,7 +130,7 @@ pre {
 }
 
 body {
-  color: #4a4a4a;
+  color: white;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -188,7 +188,7 @@ strong {
 
 pre {
   background-color: whitesmoke;
-  color: #4a4a4a;
+  color: white;
   font-size: 0.8em;
   white-space: pre;
   word-wrap: normal;
@@ -681,7 +681,7 @@ a.box:active {
 }
 
 .button:active, .button.is-active {
-  border-color: #4a4a4a;
+  border-color: white;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
   color: #363636;
 }
@@ -689,7 +689,7 @@ a.box:active {
 .button.is-link {
   background-color: transparent;
   border-color: transparent;
-  color: #4a4a4a;
+  color: white;
   text-decoration: underline;
 }
 
@@ -1492,7 +1492,7 @@ a.box:active {
 }
 
 .content {
-  color: #4a4a4a;
+  color: white;
 }
 
 .content:not(:last-child) {
@@ -2477,11 +2477,11 @@ a.box:active {
 }
 
 .progress::-webkit-progress-value {
-  background-color: #4a4a4a;
+  background-color: white;
 }
 
 .progress::-moz-progress-bar {
-  background-color: #4a4a4a;
+  background-color: white;
 }
 
 .progress.is-white::-webkit-progress-value {
@@ -2642,7 +2642,7 @@ a.box:active {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 290486px;
-  color: #4a4a4a;
+  color: white;
   display: inline-flex;
   font-size: 0.75rem;
   height: 2em;
@@ -2783,7 +2783,7 @@ a.box:active {
 }
 
 .subtitle {
-  color: #4a4a4a;
+  color: white;
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 1.25;
@@ -3029,7 +3029,7 @@ a.box:active {
 .card {
   background-color: white;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: #4a4a4a;
+  color: white;
   max-width: 100%;
   position: relative;
 }
@@ -3214,7 +3214,7 @@ a.box:active {
 
 .menu-list a {
   border-radius: 2px;
-  color: #4a4a4a;
+  color: white;
   display: block;
   padding: 0.5em 0.75em;
 }
@@ -3388,7 +3388,7 @@ a.box:active {
 
 .message-header {
   align-items: center;
-  background-color: #4a4a4a;
+  background-color: white;
   border-radius: 3px 3px 0 0;
   color: #fff;
   display: flex;
@@ -3422,7 +3422,7 @@ a.box:active {
 .message-body {
   border: 1px solid #dbdbdb;
   border-radius: 3px;
-  color: #4a4a4a;
+  color: white;
   padding: 1em 1.25em;
 }
 
@@ -3621,7 +3621,7 @@ a.box:active {
 }
 
 .nav-toggle span {
-  background-color: #4a4a4a;
+  background-color: white;
   display: block;
   height: 1px;
   left: 50%;
@@ -4075,12 +4075,12 @@ a.nav-item.is-tab.is-active {
 }
 
 .panel-tabs a.is-active {
-  border-bottom-color: #4a4a4a;
+  border-bottom-color: white;
   color: #363636;
 }
 
 .panel-list a {
-  color: #4a4a4a;
+  color: white;
 }
 
 .panel-list a:hover {
@@ -4163,7 +4163,7 @@ label.panel-block:hover {
 .tabs a {
   align-items: center;
   border-bottom: 1px solid #dbdbdb;
-  color: #4a4a4a;
+  color: white;
   display: flex;
   justify-content: center;
   margin-bottom: -1px;

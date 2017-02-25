@@ -1,2 +1,15 @@
 @import 'bulma.css';
-@import 'burger-menu.css';
+
+body {
+  background-color: white;
+}
+
+nav {
+  min-width: 100%;
+  background-color:rgba(244,187,69,1) !important;
+  min-height: 6.5rem !important;
+}
+
+.columns {
+  min-width: 100%;
+}

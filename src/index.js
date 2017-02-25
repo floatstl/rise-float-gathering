@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import BurgerMenu from 'react-burger-menu';
 import Headroom from 'react-headroom';
 import './styles/App.css';
+import logo from './assets/rise-float-community-gathering-logo-white.png';
 
 let App = React.createClass({
 
@@ -45,9 +46,45 @@ let App = React.createClass({
       }
     });
 
+    var styles = {
+      bmBurgerButton: {
+        position: 'fixed',
+        width: '36px',
+        height: '30px',
+        left: 'initial',
+        right: '36px',
+        top: '36px',
+        zIndex: '999',
+      },
+      bmBurgerBars: {
+        background: '#373a47'
+      },
+      bmCrossButton: {
+        height: '44px',
+        width: '44px'
+      },
+      bmCross: {
+        background: '#bdc3c7'
+      },
+      bmMenu: {
+        background: '#373a47',
+        padding: '2.5em 1.5em 0',
+        fontSize: '1.15em'
+      },
+      bmMorphShape: {
+        fill: '#373a47'
+      },
+      bmItemList: {
+        color: '#b8b7ad',
+        padding: '0.8em'
+      },
+      bmOverlay: {
+        background: 'rgba(0, 0, 0, 0)'
+      }
+    }
     return (
       <MenuWrap wait={20} side={this.state.side}>
-        <Menu id={this.state.currentMenu} pageWrapId={'page-wrap'} outerContainerId={'outer-container'} right>
+        <Menu id={this.state.currentMenu} styles={ styles } pageWrapId={'page-wrap'} outerContainerId={'outer-container'} right>
           {items}
         </Menu>
       </MenuWrap>
@@ -63,12 +100,31 @@ let App = React.createClass({
 
   render() {
     return (
-      <div id="outer-container" style={{height: '100%'}}>
+      <div id="outer-container">
         {this.getMobileMenu()}
         <Headroom>
-          <h1>You can put anything you'd like inside the Headroom Component</h1>
+          <nav className="nav">
+            <div className="container">
+              <div className="columns">
+                <div className="column is-one-fifth">
+                  <a href="/"><img src={logo} alt="Rise - A Float Community Gathering Logo White" /></a>
+                </div>
+                <div className="column is-one-fifth">
+                  <a href="/schedule/">Schedule</a>
+               </div>
+               <div className="column is-one-fifth">
+                <a href="/speakers/">Speakers</a>
+              </div>
+              <div className="column is-one-fifth">
+               <a href="/details/">Details</a>
+             </div>
+             <div className="column is-one-fifth">
+              <a href="https://rise.bazaarpass.com/products/2017">Buy Your Tickes</a>
+            </div>
+              </div>
+            </div>
+          </nav>
         </Headroom>
-        
       </div>
     );
   }
