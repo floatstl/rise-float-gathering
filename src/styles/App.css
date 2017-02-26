@@ -6,6 +6,15 @@ body {
   background-color: white;
 }
 
+a {
+  -o-transition: all 0.25s linear !important;
+   -moz-transition: all 0.25s linear !important;
+   -khtml-transition: all 0.25s linear !important;
+   -webkit-transition: all 0.25s linear !important;
+   -ms-transition: all 0.25s linear !important;
+   transition: all 0.25s linear !important;
+}
+
 nav.transparent {
   background-color:transparent !important;
 }
@@ -50,7 +59,7 @@ nav .button.is-large {
 
 nav .button.is-large:hover {
   background-color: white;
-  color: rgba(244,187,69,1);
+  color: rgba(0,157,180,1);
 }
 
 @media screen and (min-width: 769px) {
@@ -77,4 +86,12 @@ nav .button.is-large:hover {
 
 .bm-item-list .bold {
   font-weight: bold;
+}
+
+.home .hero-body {
+  padding: 11rem 1.5rem;
+}
+
+.home .hero-body .title {
+  color: white;
 }

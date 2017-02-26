@@ -148,35 +148,35 @@ let App = React.createClass({
   render() {
     return (
       <div id="outer-container">
-        {this.getMobileMenu()}
         <section className="hero home">
-        <Headroom onScroll={this.handleScroll} onPin={this.handelPin} onUnpin={this.handelUnPin}>
-          <nav className={this.state.navColor + ' nav'}>
-            <div className="container">
-              <div className="columns">
-                <div className="column is-one-fourth logo">
-                  <a href="/"><img src={logo} alt="Rise - A Float Community Gathering Logo White" /></a>
+          {this.getMobileMenu()}
+          <Headroom onScroll={this.handleScroll} onPin={this.handelPin} onUnpin={this.handelUnPin} pinStart={500}>
+            <nav className={this.state.navColor + ' nav'}>
+              <div className="container">
+                <div className="columns">
+                  <div className="column is-one-fourth logo">
+                    <a href="/"><img src={logo} alt="Rise - A Float Community Gathering Logo White" /></a>
+                  </div>
+                  <div className="column is-one-fourth menu-item">
+                    <a href="/schedule/">Schedule</a>
+                  </div>
+                  <div className="column is-one-fourth menu-item">
+                    <a href="/speakers/">Speakers</a>
+                  </div>
+                 <div className="column is-one-fourth menu-item">
+                  <a className="button is-large" href="https://rise.bazaarpass.com/products/2017">Buy Your Tickets</a>
                 </div>
-                <div className="column is-one-fourth menu-item">
-                  <a href="/schedule/">Schedule</a>
                 </div>
-                <div className="column is-one-fourth menu-item">
-                  <a href="/speakers/">Speakers</a>
-                </div>
-               <div className="column is-one-fourth menu-item">
-                <a className="button is-large" href="https://rise.bazaarpass.com/products/2017">Buy Your Tickets</a>
               </div>
-              </div>
-            </div>
-          </nav>
-        </Headroom>
+            </nav>
+          </Headroom>
           <div className="hero-body">
             <div className="container">
-              <h1 className="title">
-                Hero title
+              <h1 className="title is-1">
+                A Float Community Gathering
               </h1>
-              <h2 className="subtitle">
-                Hero subtitle
+              <h2 className="subtitle is-3">
+                April 28th - 30th, 2017 | St. Louis, MO
               </h2>
             </div>
           </div>
