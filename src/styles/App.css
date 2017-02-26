@@ -6,17 +6,29 @@ body {
   background-color: white;
 }
 
-nav {
-  min-width: 100%;
+nav.transparent {
+  background-color:transparent !important;
+}
+
+nav.solid {
   background-color:rgba(244,187,69,1) !important;
 }
 
-nav a {
+nav a, nav a img, nav .button {
   display: block;
   font-weight: bold;
-  height: 50px;
-  line-height: 50px;
-  font-size: 1.5rem;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.75rem;
+}
+
+.home.hero {
+  background: url(../assets/gradient.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
 }
 
 .bm-menu-wrap {
@@ -28,18 +40,17 @@ nav a {
 }
 .columns {
   min-width: 100%;
-  text-align: right;
   padding: 30px 0;
 }
 
-.menu-item {
-
+nav .button.is-large {
+  background-color: rgba(0,157,180,1);
+  color: white;
 }
 
-@media screen and (max-width: 999px) {
-  .columns{
-    text-align: center;
-  }
+nav .button.is-large:hover {
+  background-color: white;
+  color: rgba(244,187,69,1);
 }
 
 @media screen and (min-width: 769px) {
@@ -52,4 +63,18 @@ nav a {
   .menu-item {
     display: none !important;
   }
+  .logo a img {
+    margin: 0 auto;
+  }
+}
+.bm-item-list a {
+  font-weight:normal;
+  font-size: 1.5rem;
+}
+.bm-item-list .subnav {
+  font-size: 1.25rem !important;
+}
+
+.bm-item-list .bold {
+  font-weight: bold;
 }
