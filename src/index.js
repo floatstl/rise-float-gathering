@@ -115,7 +115,7 @@ let App = React.createClass({
   },
 
   handleScroll: function(event) {
-    if(window.pageYOffset >= 500) {
+    if (window.pageYOffset >= 500) {
       this.setState({
         navColor: 'solid',
         mobileNavColor: 'rgba(244,187,69,1)',
@@ -124,10 +124,9 @@ let App = React.createClass({
       this.setState({
         navColor: 'transparent',
         mobileNavColor: 'white',
-        navPinned: false,
       });
     }
-    if (this.state.navPinned) {
+    if (this.state.navPinned && window.pageYOffset >= 500) {
       this.setState({
         mobileNavColor: 'white',
       });
@@ -140,12 +139,18 @@ let App = React.createClass({
     });
   },
 
+  handelUnPin: function(event) {
+    this.setState({
+      navPinned: false,
+    });
+  },
+
   render() {
     return (
       <div id="outer-container">
         {this.getMobileMenu()}
         <section className="hero home">
-        <Headroom onScroll={this.handleScroll} onPin={this.handelPin}>
+        <Headroom onScroll={this.handleScroll} onPin={this.handelPin} onUnpin={this.handelUnPin}>
           <nav className={this.state.navColor + ' nav'}>
             <div className="container">
               <div className="columns">
