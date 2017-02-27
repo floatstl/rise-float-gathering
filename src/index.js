@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import MobileMenu from './components/header/MobileMenu';
 import Hero from './components/home/Hero';
+import TicketCallout from './components/home/TicketCallout';
+import BenifitStatement from './components/home/BenifitStatement';
+import Speakers from './components/home/Speakers';
 import './styles/App.css';
 
 let App = React.createClass({
@@ -13,6 +16,9 @@ let App = React.createClass({
           <MobileMenu/>
           <Hero/>
         </section>
+        <TicketCallout/>
+        <BenifitStatement/>
+        <Speakers/>
       </div>
     );
   }

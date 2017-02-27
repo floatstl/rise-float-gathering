@@ -19,7 +19,7 @@ let DesktopMenu = React.createClass({
                   <a href="/speakers/">Speakers</a>
                 </div>
                <div className="column is-one-fourth menu-item">
-                <a className="button is-large" href="https://rise.bazaarpass.com/products/2017">Buy Your Tickets</a>
+                <a className="button is-large" href="https://rise.bazaarpass.com/products/2017" target="_blank">Buy Your Tickets</a>
               </div>
               </div>
             </div>
