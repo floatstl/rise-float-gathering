@@ -5,6 +5,8 @@ import Hero from './components/home/Hero';
 import TicketCallout from './components/home/TicketCallout';
 import BenifitStatement from './components/home/BenifitStatement';
 import Speakers from './components/home/Speakers';
+import Schedule from './components/home/Schedule';
+import GeneralInfo from './components/home/GeneralInfo';
 import './styles/App.css';
 
 let App = React.createClass({
@@ -21,6 +23,8 @@ let App = React.createClass({
           <BenifitStatement/>
           <Speakers/>
         </section>
+        <Schedule/>
+        <GeneralInfo/>
       </div>
     );
   }

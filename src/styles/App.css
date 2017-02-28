@@ -102,7 +102,14 @@ nav a, nav a img, nav .button {
 
 section.top {
   background: url(../assets/top-swoosh.png) no-repeat bottom right;
-  background-color: white;
+}
+
+section.schedule {
+  background: url(../assets/orange-waves.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .bm-menu-wrap {

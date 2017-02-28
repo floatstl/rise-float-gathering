@@ -1,13 +1,12 @@
 import React from 'react';
-//import Collapsible from 'react-collapsible'; https://www.npmjs.com/package/react-collapsible
 import StephenJohnsonImage from '../../assets/stephen-johnson.png';
 import KevinJohnsonImage from '../../assets/kevin-johnson.png';
 import GrahamAndAshkahnImage from '../../assets/graham-and-ashkahn.png';
 
-let Speakers = React.createClass({
+let Schedule = React.createClass({
   render() {
     return (
-      <section className="section speakers">
+      <section className="section schedule">
         <div className="container">
           <h3 className="title is-2 has-text-centered">Speakers</h3>
           <div className="columns">
@@ -46,4 +45,4 @@ let Speakers = React.createClass({
   }
 });
 
-export default Speakers;
+export default Schedule;
