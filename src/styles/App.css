@@ -20,6 +20,7 @@ nav.solid {
 }
 
 nav a, nav a img, nav .button {
+  color: white;
   display: block;
   font-weight: bold;
   height: 60px;
@@ -117,8 +118,8 @@ nav a, nav a img, nav .button {
 }
 
 .button.is-large:hover {
-  background-color: white;
-  color: rgba(0,157,180,1);
+  color: white;
+  box-shadow: inset 0 0 0 5px white;
 }
 
 @media screen and (min-width: 769px) {
@@ -161,10 +162,10 @@ nav a, nav a img, nav .button {
 .ticket-callout {
   padding: 3rem 3.5rem !important;
 }
-.box .h2 {
-  font-size: 2rem;
-  color: white;
-  margin-top: 14px;
+.box h2 {
+  font-size: 2rem !important;
+  color: white !important;
+  margin-top: 14px !important;
 }
 
 .box a.button {
@@ -175,10 +176,16 @@ nav a, nav a img, nav .button {
   margin-top: -92px !important;
 }
 
-.benifit .title {
+.benifit .title, .speakers .title {
   color: rgba(244,187,69,1);
   margin-bottom: 3rem !important;
 }
+
 .benifit .subtitle {
   color:black
+}
+
+.speakers .title {
+  color: rgba(244,187,69,1);
+  margin-bottom: 0 !important;
 }

@@ -137,7 +137,7 @@ body {
 }
 
 a {
-  color: white;
+  color: rgba(0,157,180,1);
   cursor: pointer;
   text-decoration: none;
   transition: none 86ms ease-out;
