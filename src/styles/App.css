@@ -90,13 +90,19 @@ nav a, nav a img, nav .button {
 	-webkit-transform: translateY(-10px);
 	transform: translateY(-10px);
 }
+
 .home.hero {
-  background: url(../assets/gradient.png) no-repeat center center fixed;
+  background: url(../assets/hero-image.png) no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   min-height: 600px;
+}
+
+section.top {
+  background: url(../assets/top-swoosh.png) no-repeat bottom right;
+  background-color: white;
 }
 
 .bm-menu-wrap {

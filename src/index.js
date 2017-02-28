@@ -17,8 +17,10 @@ let App = React.createClass({
           <Hero/>
         </section>
         <TicketCallout/>
-        <BenifitStatement/>
-        <Speakers/>
+        <section className="top">
+          <BenifitStatement/>
+          <Speakers/>
+        </section>
       </div>
     );
   }
