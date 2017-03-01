@@ -7,6 +7,9 @@ import BenifitStatement from './components/home/BenifitStatement';
 import Speakers from './components/home/Speakers';
 import Schedule from './components/home/Schedule';
 import GeneralInfo from './components/home/GeneralInfo';
+import Sponsors from './components/home/Sponsors';
+import TicketInfo from './components/home/TicketInfo';
+import Footer from './components/home/Footer';
 import './styles/App.css';
 
 let App = React.createClass({
@@ -25,6 +28,9 @@ let App = React.createClass({
         </section>
         <Schedule/>
         <GeneralInfo/>
+        <Sponsors/>
+        <TicketInfo/>
+        <Footer/>
       </div>
     );
   }
