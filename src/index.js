@@ -10,7 +10,8 @@ import GeneralInfo from './components/home/GeneralInfo';
 import Sponsors from './components/home/Sponsors';
 import TicketInfo from './components/home/TicketInfo';
 import Footer from './components/home/Footer';
-import './styles/App.css';
+import './style.css';
+import 'font-awesome/css/font-awesome.css';
 
 let App = React.createClass({
 
