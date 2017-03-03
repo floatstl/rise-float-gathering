@@ -6424,3 +6424,7 @@ img:hover {
 .nav .button.is-large:hover, .ticket-callout .button:hover {
   background-color: rgba(244,187,69,1);
 }
+
+footer .icon a {
+  font-size: 2rem;
+}
