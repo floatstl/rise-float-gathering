@@ -29,7 +29,7 @@ let App = React.createClass({
         </section>
         <Schedule/>
         <GeneralInfo/>
-        <Sponsors/>
+        
         <TicketInfo/>
         <Footer/>
       </div>

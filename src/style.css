@@ -6207,6 +6207,10 @@ section.schedule {
   background-size: cover;
 }
 
+section.schedule h3 {
+  color: white;
+}
+
 section.sponsors {
   background: url(./assets/sponsors-swoosh.png) no-repeat bottom left;
 }
@@ -6403,4 +6407,20 @@ footer .footer-links {
 .info p {
   font-size: 1.25rem;
   color: black;
+}
+
+.info a:hover, .speakers a:hover {
+  color: rgba(244,187,69,1);
+}
+
+img:hover {
+  -webkit-filter: hue-rotate(180deg);
+}
+
+.button {
+  border-radius: 5px;
+}
+
+.nav .button.is-large:hover, .ticket-callout .button:hover {
+  background-color: rgba(244,187,69,1);
 }

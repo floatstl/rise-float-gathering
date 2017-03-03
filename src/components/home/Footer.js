@@ -48,10 +48,10 @@ let TicketInfo = React.createClass({
             </div>
             <div className="columns">
               <div className="column">
-              <p>Connect With Us</p>
-              <span className="icon">
-                <a href="https://www.facebook.com/events/1901297480100411/" target="_blank"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-              </span>
+                <p>Connect With Us</p>
+                <span className="icon">
+                  <a href="https://www.facebook.com/events/1901297480100411/" target="_blank"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+                </span>
               </div>
             </div>
           </div>
