@@ -1,5 +1,6 @@
 import React from 'react';
 //import Collapsible from 'react-collapsible'; https://www.npmjs.com/package/react-collapsible
+import ScrollableAnchor from 'react-scrollable-anchor';
 import StephenJohnsonImage from '../../assets/stephen-johnson.png';
 import KevinJohnsonImage from '../../assets/kevin-johnson.png';
 import GrahamAndAshkahnImage from '../../assets/graham-and-ashkahn.png';
@@ -8,7 +9,7 @@ let Speakers = React.createClass({
   render() {
     return (
       <section className="section speakers">
-        <a name="speakers"></a>
+        <ScrollableAnchor id={'speakers'}>
         <div className="container">
           <h3 className="title is-2 has-text-centered">Speakers</h3>
           <div className="columns">
@@ -42,6 +43,7 @@ let Speakers = React.createClass({
             </div>
           </div>
         </div>
+        </ScrollableAnchor>
       </section>
     );
   }
