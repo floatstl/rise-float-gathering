@@ -6231,7 +6231,7 @@ section.sponsors {
 
 .button.is-large:hover {
   color: white;
-  box-shadow: inset 0 0 0 5px white;
+  background-color: rgba(0,157,180,1);
 }
 
 @media screen and (min-width: 769px) {
@@ -6302,7 +6302,6 @@ section.sponsors {
 
 .speakers .title, .sponsors .title, .info .title {
   color: rgba(244,187,69,1);
-  margin-bottom: 0 !important;
 }
 
 section.ticket-info {
@@ -6390,8 +6389,18 @@ footer a:hover {
 
 .ticket-info a.button {
   background-color: transparent;
+  border: 2px solid white;
+}
+
+.ticket-info a.button:hover {
+  background-color: rgba(0,157,180,1);
 }
 
 footer .footer-links {
   display: none;
+}
+
+.info p {
+  font-size: 1.25rem;
+  color: black;
 }

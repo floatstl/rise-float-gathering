@@ -7,18 +7,13 @@ let GeneralInfo = React.createClass({
         <div className="container">
           <div className="columns">
             <div className="column is-one-third">
-              <h3 className="title is-2 has-text-centered">St. Louis, MO</h3>
-              <p>Rise is conveniently and centrally located in St. Louis, Missouri.</p>
-              <aside className="menu">
-                <h4 className="menu-label">
-                  General Information
-                </h4>
-                <ul className="menu-list">
-                  <li><a>How to get here</a></li>
-                  <li><a>Where to stay</a></li>
-                  <li><a>Parking and transportation</a></li>
-                </ul>
-              </aside>
+              <h3 className="title is-2 has-text-centered">Location - St. Louis, MO</h3>
+              <p>Rise is conveniently and centrally located in St. Louis, Missouri. @4240 is a <a href="https://en.wikipedia.org/wiki/Leadership_in_Energy_and_Environmental_Design" target="_blank">certified LEED Platinum building</a> and is surrounded by what humans want most including walking distance to green spaces, cafes and recreation areas.</p>
+              <br/><br/>
+              <p><strong><a href="http://at4240.com/" target="_blank">@4240</a></strong></p>
+              <p>4240 Duncan Ave</p>
+              <p>St. Louis, MO 63110</p>
+              <br/><br/>
             </div>
             <div className="column">
               <div className="map-container">
