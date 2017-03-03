@@ -6187,7 +6187,8 @@ nav a, nav a img, nav .button {
 }
 
 .home.hero {
-  background: url(./assets/hero-image.png) no-repeat top center;
+  /*background: url(./assets/orange-waves.png) no-repeat top center;*/
+  background: url(./assets/gradient.png) no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6388,7 +6389,7 @@ footer a:hover {
 }
 
 .ticket-info p {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
 }
 
 .ticket-info a.button {

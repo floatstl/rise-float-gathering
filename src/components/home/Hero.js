@@ -4,7 +4,7 @@ let Hero = React.createClass({
   render() {
     return (
       <div className="hero-body">
-        <div className="container">
+        <div className="container has-text-centered">
           <h1 className="title is-1">
             A Float Community Gathering
           </h1>

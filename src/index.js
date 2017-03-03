@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Particles from 'react-particles-js';
+import ParticleParams from './particles.json';
+
 import MobileMenu from './components/header/MobileMenu';
 import Hero from './components/home/Hero';
 import TicketCallout from './components/home/TicketCallout';
@@ -14,7 +17,6 @@ import './style.css';
 import 'font-awesome/css/font-awesome.css';
 
 let App = React.createClass({
-
   render() {
     return (
       <div id="outer-container">
@@ -22,6 +24,7 @@ let App = React.createClass({
           <MobileMenu/>
           <Hero/>
         </section>
+        <Particles params={ParticleParams} height={600} style={{'marginTop': '-600px'}}/>
         <TicketCallout/>
         <section className="top">
           <BenifitStatement/>
@@ -29,7 +32,7 @@ let App = React.createClass({
         </section>
         <Schedule/>
         <GeneralInfo/>
-        
+
         <TicketInfo/>
         <Footer/>
       </div>
