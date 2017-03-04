@@ -61,7 +61,7 @@ let Speakers = React.createClass({
               <div className="content has-text-centered">
               <img className="circle" src={KevinJohnsonImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
                 <h3>Kevin Johnson</h3>
-                <p>Owner of <a href="" target="_blank">Zero Gravity Float Rooms</a></p>
+                <p>Owner of <a href="http://zerogravityinstitute.com/" target="_blank">Zero Gravity Float Rooms</a></p>
                 <a href="https://twitter.com/ZeroGravityInst" target="_blank">@ZeroGravityInst</a>
               </div>
             </div>
