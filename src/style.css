@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
-
 @keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -127,7 +124,7 @@ code,
 pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 body {
@@ -6188,7 +6185,7 @@ nav a, nav a img, nav .button {
 
 .home.hero {
   /*background: url(./assets/orange-waves.png) no-repeat top center;*/
-  background: url(./assets/gradient.png) no-repeat top center;
+  background: url(./assets/gradient.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6405,8 +6402,13 @@ footer .footer-links {
   display: none;
 }
 
-.info p {
+.info p, .schedule p, .speakers p {
   font-size: 1.25rem;
+  color: black;
+}
+
+.benifit p {
+  font-size: 1.6rem;
   color: black;
 }
 
@@ -6423,9 +6425,13 @@ img:hover {
 }
 
 .nav .button.is-large:hover, .ticket-callout .button:hover {
-  background-color: rgba(244,187,69,1);
+  background-color: rgba(125,125,125,1);
 }
 
 footer .icon a {
   font-size: 2rem;
+}
+
+img.circle {
+  clip-path: circle(152px at center);
 }

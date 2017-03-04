@@ -3,7 +3,10 @@ import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import StephenJohnsonImage from '../../assets/stephen-johnson.png';
 import KevinJohnsonImage from '../../assets/kevin-johnson.png';
-import GrahamAndAshkahnImage from '../../assets/graham-and-ashkahn.png';
+import GrahamTallyImage from '../../assets/graham-talley-rise-speaker.png';
+import AshkahnJahromiImage from '../../assets/ashkahn-jahromi-rise-speaker.png';
+import AndyZaremba from '../../assets/andy-zaremba-rise-speaker.png';
+import MikeZaremba from '../../assets/mike-zaremba-rise-speaker.png';
 
 let Speakers = React.createClass({
   render() {
@@ -15,25 +18,51 @@ let Speakers = React.createClass({
           <div className="columns">
             <div className="column">
               <div className="content has-text-centered">
-                <img className="" src={StephenJohnsonImage} alt="Rise Float Conference Speaker Stephen Johnson"/>
-                <h3><a href="#">Stephen Johnson</a></h3>
+                <img className="circle" src={MikeZaremba} alt="Rise Float Conference Speaker Mike Zaremba"/>
+                <h3>Mike Zaremba</h3>
+                <p>Co-Founder of <a href="http://www.floathouse.com" target="_blank">Float House</a></p>
+                <a href="https://twitter.com/Float_House" target="_blank">@Float_House</a>
+              </div>
+            </div>
+            <div className="column">
+              <div className="content has-text-centered">
+                  <img className="circle" src={AshkahnJahromiImage} alt="Rise Float Conference Speaker Ashkahn Jahromi"/>
+                <h3>Ashkahn Jahromi</h3>
+                <p>Owner of <a href="http://floathq.com" target="_blank">Float On</a></p>
+                <a href="https://twitter.com/floathq" target="_blank">@floathq</a>
+              </div>
+            </div>
+            <div className="column">
+              <div className="content has-text-centered">
+                <img className="circle" src={StephenJohnsonImage} alt="Rise Float Conference Speaker Stephen Johnson"/>
+                <h3>Stephen Johnson</h3>
                 <p>Psychiatric Nurse, Fascial Anatomist, and Philosopher</p>
               </div>
             </div>
+          </div>
+          <div className="columns">
             <div className="column">
               <div className="content has-text-centered">
-              <img src={KevinJohnsonImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
-                <h3><a href="#">Kevin Johnson</a></h3>
-                <p>Owner of Zero Gravity Float Rooms</p>
-                <a href="https://twitter.com/ZeroGravityInst" target="_blank">@ZeroGravityInst</a>
+                <img className="circle" src={AndyZaremba} alt="Rise Float Conference Speaker Andy Zaremba"/>
+                <h3>Andy Zaremba</h3>
+                <p>Co-Founder of <a href="http://www.floathouse.com" target="_blank">Float House</a></p>
+                <a href="https://twitter.com/Float_House" target="_blank">@Float_House</a>
               </div>
             </div>
             <div className="column">
               <div className="content has-text-centered">
-                <img src={GrahamAndAshkahnImage} alt="Rise Float Conference Speakers Graham Talley & Ashkahn Jahromi"/>
-                <h3><a href="#">Graham & Ashkahn</a></h3>
-                <p>Co-Owners of Float On</p>
+                <img className="circle" src={GrahamTallyImage} alt="Rise Float Conference Speakers Graham Talley"/>
+                <h3>Graham Tally</h3>
+                <p>Co-Founder of <a href="https://floathq.com" target="_blank">Float On</a> & <a href="http://www.floattanksolutions.com/" target="_blank">Float Tank Solutions</a></p>
                 <a href="https://twitter.com/floathq" target="_blank">@floathq</a>
+              </div>
+            </div>
+            <div className="column">
+              <div className="content has-text-centered">
+              <img className="circle" src={KevinJohnsonImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
+                <h3>Kevin Johnson</h3>
+                <p>Owner of <a href="" target="_blank">Zero Gravity Float Rooms</a></p>
+                <a href="https://twitter.com/ZeroGravityInst" target="_blank">@ZeroGravityInst</a>
               </div>
             </div>
           </div>
