@@ -6435,3 +6435,7 @@ footer .icon a {
 img.circle {
   clip-path: circle(152px at center);
 }
+
+.info {
+  background: url(./assets/rise-background.png) no-repeat bottom left;
+}
