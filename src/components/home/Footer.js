@@ -32,18 +32,18 @@ let TicketInfo = React.createClass({
                 </div>
               </div>
             </div>
-            <div className="columns footer-links is-hidden">
+            <div className="columns footer-links">
               <div className="column">
-                <a href="#">About Rise</a>
+                <a href="/about/">About Rise</a>
               </div>
               <div className="column">
-                <a href="#">Vendors & Speakers</a>
+                <a href="/vendors-and-speakers/">Vendors & Sponsors</a>
               </div>
               <div className="column">
-                <a href="#">FLOAT STL</a>
+                <a href="https://floatingstl.com/" target="_blank">FLOAT STL</a>
               </div>
               <div className="column">
-                <a href="#">Meet the Team</a>
+                <a href="https://floatingstl.com/about/" target="_blank">Meet the Team</a>
               </div>
             </div>
             <div className="columns">
