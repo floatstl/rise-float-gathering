@@ -16,7 +16,7 @@ let Schedule = React.createClass({
                 <div className="content has-text-centered">
                   <img className="circle" src={ConnectImage} alt="Rise Float Conference Speaker Stephen Johnson"/>
                   <h3>Connect</h3>
-                  <p>On Friday, we’ll meet up for a networking happy hour. You’ll meet industry leaders and passionate  oat center leaders.</p>
+                  <p>On Friday, we’ll meet up for a networking happy hour. You’ll meet industry leaders and passionate float center leaders.</p>
                 </div>
               </div>
               <div className="column">
