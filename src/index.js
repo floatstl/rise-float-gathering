@@ -6,7 +6,7 @@ import ParticleParams from './particles.json';
 import MobileMenu from './components/header/MobileMenu';
 import Hero from './components/home/Hero';
 import TicketCallout from './components/home/TicketCallout';
-import BenifitStatement from './components/home/BenifitStatement';
+import BenifitStatement from './components/home/BenefitStatement';
 import Speakers from './components/home/Speakers';
 import Schedule from './components/home/Schedule';
 import GeneralInfo from './components/home/GeneralInfo';

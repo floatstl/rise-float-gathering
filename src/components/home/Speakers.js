@@ -28,7 +28,7 @@ let Speakers = React.createClass({
               <div className="content has-text-centered">
                   <img className="circle" src={AshkahnJahromiImage} alt="Rise Float Conference Speaker Ashkahn Jahromi"/>
                 <h3>Ashkahn Jahromi</h3>
-                <p>Owner of <a href="http://floathq.com" target="_blank">Float On</a></p>
+                <p>Co-Founder of <a href="https://floathq.com" target="_blank">Float On</a> & <a href="http://www.floattanksolutions.com/" target="_blank">Float Tank Solutions</a></p>
                 <a href="https://twitter.com/floathq" target="_blank">@floathq</a>
               </div>
             </div>

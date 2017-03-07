@@ -108,7 +108,7 @@ let MobileMenu = React.createClass({
   render() {
     return (
       <div>
-        {this.getMobileMenu()}
+        {/* this.getMobileMenu() */}
         <DesktopMenu navColor={this.state.navColor}/>
       </div>
     );

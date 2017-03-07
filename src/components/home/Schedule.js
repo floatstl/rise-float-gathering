@@ -23,14 +23,14 @@ let Schedule = React.createClass({
                 <div className="content has-text-centered">
                 <img className="circle" src={DiscoverImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
                   <h3>Discover</h3>
-                  <p>Saturday will include informational  oat and wellness sessions, the opportunity to learn about community development, and keynotes from six inspiring industry leaders.</p>
+                  <p>Saturday will include informational float and wellness sessions, the opportunity to learn about community development, and keynotes from six inspiring industry leaders.</p>
                 </div>
               </div>
               <div className="column">
                 <div className="content has-text-centered">
                   <img className="circle" src={Refresh} alt="Rise Float Conference Speakers Graham Talley & Ashkahn Jahromi"/>
                   <h3>Refresh</h3>
-                  <p>On Sunday, we’ll have the chance to sit back, relax and re ect. Take a moment to enjoy the community before heading back to daily life.</p>
+                  <p>On Sunday, we’ll have the chance to sit back, relax and reflect. Take a moment to enjoy the community before heading back to daily life.</p>
                 </div>
               </div>
             </div>
