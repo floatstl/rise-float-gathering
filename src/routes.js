@@ -10,6 +10,7 @@ import NotFound from './components/NotFound';
 let Routes = (props) => (
   <Router {...props}>
     <Route path="/" component={Home} />
+    <Route path="/speakers" component={Speakers} />
     <Route path="*" component={NotFound} />
   </Router>
 );

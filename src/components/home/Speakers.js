@@ -1,5 +1,4 @@
 import React from 'react';
-//import Collapsible from 'react-collapsible'; https://www.npmjs.com/package/react-collapsible
 import ScrollableAnchor from 'react-scrollable-anchor';
 import StephenJohnsonImage from '../../assets/stephen-johnson.png';
 import KevinJohnsonImage from '../../assets/kevin-johnson.png';
