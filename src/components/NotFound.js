@@ -12,7 +12,7 @@ let NotFound = React.createClass({
         <section className="hero home">
           <MobileMenu/>
           <div className="hero-body">
-            <div className="container has-text-centered">
+            <div className="container has-text-centered not-found">
               <h1 className="title is-1">
                 404 - Not Found
               </h1><br/>

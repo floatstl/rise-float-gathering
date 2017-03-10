@@ -6099,11 +6099,12 @@ a {
 }
 
 .nav {
-  background: url(./assets/orange-waves.png) no-repeat center center fixed !important;
+  /*background: url(./assets/orange-waves.png) no-repeat center center fixed !important;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
-  background-size: cover !important;
+  background-size: cover !important;*/
+  background: rgba(244,187,69,1);
 }
 
 .home.hero nav.transparent {
@@ -6111,11 +6112,12 @@ a {
 }
 
 nav.solid {
-  background: url(./assets/orange-waves.png) no-repeat center center fixed !important;
+  /*background: url(./assets/orange-waves.png) no-repeat center center fixed !important;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
-  background-size: cover !important;
+  background-size: cover !important;*/
+  background: rgba(244,187,69,1);
 }
 
 nav a, nav a img, nav .button {
@@ -6327,13 +6329,13 @@ section.sponsors {
   border: 2px solid white;
 }
 
-.schedule .button.is-large {
+.schedule .button.is-large, .not-found .button.is-large {
   color: white;
   background-color: rgba(244,187,69,1);
   border: 2px solid white;
 }
 
-.schedule .button.is-large:hover {
+.schedule .button.is-large:hover, .not-found .button.is-large:hover {
   color: rgba(244,187,69,1);
   background-color: white;
   border: 2px solid rgba(244,187,69,1);

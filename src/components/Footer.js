@@ -4,7 +4,7 @@ import BrushLogo from '../assets/rise-brush-logo.png';
 let TicketInfo = React.createClass({
   render() {
     return (
-      <div>
+      <div style={{'marginTop': '-22px'}}>
         <section className="section ticket-info">
           <div className="container has-text-centered">
             <h3 className="title is-2">Join Us</h3>

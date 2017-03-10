@@ -10,10 +10,10 @@ let DesktopMenu = React.createClass({
             <div className="container">
               <div className="columns">
                 <div className="column is-one-fourth logo">
-                  <a href="https://rise.bazaarpass.com/products/2017" target="_blank"><span><img src={logo} alt="Rise - A Float Community Gathering Logo White" /></span></a>
+                  <a href="/" target="_blank"><span><img src={logo} alt="Rise - A Float Community Gathering Logo White" /></span></a>
                 </div>
                 <div className="column is-one-fourth menu-item">
-                  <a href="#speakers">Speakers</a>
+                  <a href="/speakers/">Speakers</a>
                 </div>
                 <div className="column is-one-fourth menu-item">
                   <a href="#schedule">Schedule</a>
