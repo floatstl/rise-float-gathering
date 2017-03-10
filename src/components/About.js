@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 import ParticleParams from './../particles.json';
 
 import MobileMenu from './header/MobileMenu';
-import Footer from './home/Footer';
+import Footer from './Footer';
 
 let About = React.createClass({
   render() {

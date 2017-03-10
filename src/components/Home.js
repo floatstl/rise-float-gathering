@@ -9,8 +9,7 @@ import Speakers from './home/Speakers';
 import Schedule from './home/Schedule';
 import GeneralInfo from './home/GeneralInfo';
 import Sponsors from './home/Sponsors';
-import TicketInfo from './home/TicketInfo';
-import Footer from './home/Footer';
+import Footer from './Footer';
 
 let Home = React.createClass({
   render() {
@@ -27,8 +26,6 @@ let Home = React.createClass({
         </section>
         <Schedule/>
         <GeneralInfo/>
-
-        <TicketInfo/>
         <Footer/>
       </div>
     );

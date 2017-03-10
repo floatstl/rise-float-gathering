@@ -9,7 +9,7 @@ import AshkahnJahromiImage from '../assets/ashkahn-jahromi-rise-speaker.png';
 import AndyZaremba from '../assets/andy-zaremba-rise-speaker.png';
 import MikeZaremba from '../assets/mike-zaremba-rise-speaker.png';
 import MobileMenu from './header/MobileMenu';
-import Footer from './home/Footer';
+import Footer from './Footer';
 
 let Speakers = React.createClass({
   render() {
