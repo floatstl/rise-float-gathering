@@ -6423,8 +6423,22 @@ footer .footer-links {
   color: rgba(244,187,69,1);
 }
 
+img {
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
 img:hover {
-  -webkit-filter: hue-rotate(180deg);
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.hover08 figure img {
+
+}
+.hover08 figure:hover img {
+
 }
 
 .button {
