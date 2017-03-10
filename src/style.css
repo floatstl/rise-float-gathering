@@ -6239,8 +6239,7 @@ section.sponsors {
 }
 
 .button.is-large:hover {
-  color: white;
-  background-color: rgba(0,157,180,1);
+  background-color: rgba(0,132,155,1);
 }
 
 @media screen and (min-width: 769px) {
@@ -6446,7 +6445,7 @@ img:hover {
 }
 
 .nav .button.is-large:hover, .ticket-callout .button:hover {
-  background-color: rgba(125,125,125,1);
+  background-color: rgba(0,132,155,1);
 }
 
 footer .icon a {
