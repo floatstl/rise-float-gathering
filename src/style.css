@@ -6446,3 +6446,12 @@ img.circle {
 .info {
   background: url(./assets/rise-background.png) no-repeat bottom left;
 }
+
+.hero .subtitle {
+  color: white;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: white;
+}

@@ -14,6 +14,8 @@ let Speakers = React.createClass({
         <ScrollableAnchor id={'speakers'}>
         <div className="container">
           <h3 className="title is-2 has-text-centered">Speakers</h3>
+          <p>Throughout the weekend, you’ll meet with industry leaders, learn about new products and be inspired by the innovation and passion that surrounds you.</p>
+          <br/><br/>
           <div className="columns">
             <div className="column">
               <div className="content has-text-centered">
