@@ -16,7 +16,7 @@ let Home = React.createClass({
     return (
       <div id="outer-container">
         <section className="hero home">
-          <MobileMenu/>
+          <MobileMenu isHome={true}/>
           <Hero/>
         </section>
         <Particles params={ParticleParams} height={600} style={{'marginTop': '-600px'}}/>

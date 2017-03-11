@@ -75,21 +75,23 @@ let MobileMenu = React.createClass({
   },
 
   handleScroll: function(event) {
-    if (window.pageYOffset >= 500) {
-      this.setState({
-        navColor: 'solid',
-        mobileNavColor: 'rgba(0,157,180,1)',
-      });
-    } else {
-      this.setState({
-        navColor: 'transparent',
-        mobileNavColor: 'white',
-      });
-    }
-    if (this.state.navPinned && window.pageYOffset >= 500) {
-      this.setState({
-        mobileNavColor: 'white',
-      });
+    if (this.props.isHome) {
+      if (window.pageYOffset >= 500) {
+        this.setState({
+          navColor: 'solid',
+          mobileNavColor: 'rgba(0,157,180,1)',
+        });
+      } else {
+        this.setState({
+          navColor: 'transparent',
+          mobileNavColor: 'white',
+        });
+      }
+      if (this.state.navPinned && window.pageYOffset >= 500) {
+        this.setState({
+          mobileNavColor: 'white',
+        });
+      }
     }
   },
 
@@ -109,7 +111,7 @@ let MobileMenu = React.createClass({
     return (
       <div>
         {this.getMobileMenu()}
-        <DesktopMenu navColor={this.state.navColor}/>
+        <DesktopMenu navColor={this.state.navColor} isHome={this.props.isHome}/>
       </div>
     );
   }
