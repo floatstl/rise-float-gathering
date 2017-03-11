@@ -1,6 +1,7 @@
-module.exports = function(barColor) {
+module.exports = function(menuDisplay) {
   return {
     bmBurgerButton: {
+      display: menuDisplay,
       position: 'fixed',
       width: '36px',
       height: '30px',
@@ -10,7 +11,7 @@ module.exports = function(barColor) {
       zIndex: '999',
     },
     bmBurgerBars: {
-      background: barColor
+      background: 'white'
     },
     bmCrossButton: {
       height: '44px',

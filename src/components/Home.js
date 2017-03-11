@@ -2,7 +2,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import ParticleParams from './../particles.json';
 
-import MobileMenu from './header/MobileMenu';
+import MobileMenu from './Header';
 import Hero from './home/Hero';
 import TicketCallout from './home/TicketCallout';
 import Speakers from './home/Speakers';

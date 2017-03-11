@@ -2,7 +2,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import ParticleParams from './../particles.json';
 
-import MobileMenu from './header/MobileMenu';
+import MobileMenu from './Header';
 import Footer from './Footer';
 
 let Schedule = React.createClass({

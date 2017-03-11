@@ -1,7 +1,8 @@
 import React from 'react';
 import BurgerMenu from 'react-burger-menu';
-import DesktopMenu from './DesktopMenu';
-import MobileNavStyles from './MobileNavStyles'
+import Headroom from 'react-headroom';
+import MobileNavStyles from './MobileNavStyles';
+import logo from '../assets/rise-logo-white.png';
 
 let MobileMenu = React.createClass({
 
@@ -49,7 +50,7 @@ let MobileMenu = React.createClass({
 
     return (
       <MenuWrap wait={20} side={this.state.side}>
-        <Menu id={this.state.currentMenu} styles={ MobileNavStyles(this.state.mobileNavColor) } pageWrapId={'page-wrap'} outerContainerId={'outer-container'} right>
+        <Menu id={this.state.currentMenu} styles={ MobileNavStyles(this.state.showMobileMenu) } pageWrapId={'page-wrap'} outerContainerId={'outer-container'} right>
           {items}
         </Menu>
       </MenuWrap>
@@ -61,7 +62,7 @@ let MobileMenu = React.createClass({
       currentMenu: 'slide',
       side: 'right',
       navColor: 'transparent',
-      mobileNavColor: 'white',
+      showMobileMenu: 'block',
       navPinned: false,
     };
   },
@@ -79,17 +80,11 @@ let MobileMenu = React.createClass({
       if (window.pageYOffset >= 500) {
         this.setState({
           navColor: 'solid',
-          mobileNavColor: 'rgba(0,157,180,1)',
         });
       } else {
         this.setState({
           navColor: 'transparent',
-          mobileNavColor: 'white',
-        });
-      }
-      if (this.state.navPinned && window.pageYOffset >= 500) {
-        this.setState({
-          mobileNavColor: 'white',
+          showMobileMenu: 'none',
         });
       }
     }
@@ -99,11 +94,17 @@ let MobileMenu = React.createClass({
     this.setState({
       navPinned: true,
     });
+    setTimeout(() => {
+      this.setState({
+        showMobileMenu: 'block',
+      });
+    }, 125);
   },
 
   handelUnPin: function(event) {
     this.setState({
       navPinned: false,
+      showMobileMenu: 'none',
     });
   },
 
@@ -111,7 +112,26 @@ let MobileMenu = React.createClass({
     return (
       <div>
         {this.getMobileMenu()}
-        <DesktopMenu navColor={this.state.navColor} isHome={this.props.isHome}/>
+        <Headroom onScroll={this.handleScroll} onPin={this.handelPin} onUnpin={this.handelUnPin} pinStart={this.props.isHome ? 500 : 0}>
+          <nav className={this.state.navColor + ' nav'}>
+            <div className="container">
+              <div className="columns">
+                <div className="column is-one-fourth logo">
+                  <a href="/"><span><img src={logo} alt="Rise - A Float Community Gathering Logo White" /></span></a>
+                </div>
+                <div className="column is-one-fourth menu-item">
+                  <a href="/speakers/">Speakers</a>
+                </div>
+                <div className="column is-one-fourth menu-item">
+                  <a href="#schedule">Schedule</a>
+                </div>
+               <div className="column is-one-fourth menu-item">
+                <a className="button is-large" href="https://rise.bazaarpass.com/products/2017" target="_blank">Buy Your Tickets</a>
+              </div>
+              </div>
+            </div>
+          </nav>
+        </Headroom>
       </div>
     );
   }
