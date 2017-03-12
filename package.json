@@ -49,6 +49,7 @@
     "whatwg-fetch": "2.0.2"
   },
   "dependencies": {
+    "boron": "^0.2.3",
     "font-awesome": "^4.7.0",
     "react": "^15.4.2",
     "react-burger-menu": "^1.10.12",

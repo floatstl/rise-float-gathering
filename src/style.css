@@ -6236,7 +6236,7 @@ section.sponsors {
 
 @media screen and (min-width: 769px) {
   .bm-burger-button {
-    display: none;
+    display: none !important;
   }
   footer .email-signup input {
     max-width: 35% !important;
@@ -6453,6 +6453,11 @@ img:hover {
 	filter: grayscale(0);
 }
 
+.modal-card-body img {
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
 .button {
   border-radius: 5px;
 }
@@ -6474,7 +6479,7 @@ img.circle {
 }
 
 .info {
-  background: url(./assets/rise-background.png) no-repeat bottom left;
+  background: url(./assets/rise-background.png) no-repeat bottom leftd;
 }
 
 .hero .subtitle {
@@ -6488,4 +6493,14 @@ img.circle {
 
 .nav a:hover {
   color: black;
+}
+
+button.delete {
+  position: fixed;
+  top: 6%;
+  right: 15%;
+}
+
+.modal-card-body {
+  padding: 1.5rem 5rem 3rem 5rem;
 }

@@ -34,14 +34,8 @@ let MobileMenu = React.createClass({
       },
 
       render() {
-        let style;
-
-        if (this.state.hidden) {
-          style = {display: 'none'};
-        }
-
         return (
-          <div style={style} className={this.props.side}>
+          <div style={this.state.hidden ? {display: 'none'} : {display: 'block'}} className={this.props.side}>
             {this.props.children}
           </div>
         );
@@ -88,6 +82,9 @@ let MobileMenu = React.createClass({
         });
       }
     }
+
+    // if scroll is 0 show mobile nav
+
   },
 
   handelPin: function(event) {
@@ -98,7 +95,7 @@ let MobileMenu = React.createClass({
       this.setState({
         showMobileMenu: 'block',
       });
-    }, 125);
+    }, 100);
   },
 
   handelUnPin: function(event) {

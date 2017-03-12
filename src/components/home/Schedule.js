@@ -11,12 +11,13 @@ let Schedule = React.createClass({
         <ScrollableAnchor id={'schedule'}>
           <div className="container">
             <h3 className="title is-2 has-text-centered">What to Expect</h3>
+            <p className="has-text-centered">Throughout the weekend, you’ll meet with industry leaders and be inspired by the innovation and passion that surrounds you.</p>
             <div className="columns">
               <div className="column">
                 <div className="content has-text-centered">
                   <img className="circle" src={ConnectImage} alt="Rise Float Conference Speaker Stephen Johnson"/>
                   <h3>Connect</h3>
-                  <p>On Friday, we’ll meet up for a networking happy hour. You’ll meet industry leaders and passionate float center leaders.</p>
+                  <p>On Friday, we’ll meet up for a networking happy hour at <a href="http://www.hotelignaciostl.com/" target="_blank">Hotel Ignacio</a>. You’ll meet industry leaders and passionate float center leaders.</p>
                 </div>
               </div>
               <div className="column">
