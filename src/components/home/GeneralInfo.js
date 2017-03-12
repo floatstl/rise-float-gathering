@@ -9,11 +9,13 @@ let GeneralInfo = React.createClass({
             <div className="column">
               <h3 className="title is-2 has-text-centered">Hello St. Louis!</h3>
               <p>Rise is conveniently and centrally located in St. Louis, Missouri. <a href="http://at4240.com/" target="_blank">@4240</a> is a <a href="https://en.wikipedia.org/wiki/Leadership_in_Energy_and_Environmental_Design" target="_blank">certified LEED Platinum building</a> and is surrounded by what humans want most including walking distance to green spaces, cafes and recreation areas.</p>
-              <br/><br/>
+              <br/>
               <p><strong><a href="http://at4240.com/" target="_blank">@4240</a></strong></p>
               <p>4240 Duncan Ave</p>
               <p>St. Louis, MO 63110</p>
-              <br/><br/>
+              <br/>
+              <p><strong>Near By Hotels</strong>: <a href="http://www.hotelignaciostl.com/" target="_blank">Hotel Ignacio</a> - <small>1.6 miles</small> | <a href="http://www.theparkwayhotel.com/" target="_blank">The Parkway Hotel</a> - <small>0.7 Mile</small></p>
+              <p><small>See our <a href="https://www.facebook.com/events/1901297480100411/?active_tab=discussion" target="_blank">Facebook page</a> for discount details</small></p>
             </div>
             <div className="column">
               <div className="map-container">
