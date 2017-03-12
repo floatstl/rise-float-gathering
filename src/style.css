@@ -6463,7 +6463,7 @@ img:hover {
 }
 
 .ticket-callout .button:hover {
-  background-color: rgba(0,132,155,1);
+  background-color:
 }
 
 .nav .button.is-large:hover{
@@ -6503,4 +6503,24 @@ button.delete {
 
 .modal-card-body {
   padding: 1.5rem 5rem 3rem 5rem;
+}
+
+.speakers-page h1 {
+  color: rgba(244,187,69,1);
+}
+
+.speakers-page h2 {
+  font-size: 2rem;
+}
+.speakers-page h3 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.speakers-page p {
+  font-size: 1.25rem;
+}
+
+.speakers-page img {
+  filter: grayscale(0);
 }

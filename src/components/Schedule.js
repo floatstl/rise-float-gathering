@@ -1,32 +1,55 @@
 import React from 'react';
-import Particles from 'react-particles-js';
-import ParticleParams from './../particles.json';
 
-import MobileMenu from './Header';
+import Header from './Header';
 import Footer from './Footer';
 
+import ConnectImage from '../assets/connect.png';
+import DiscoverImage from '../assets/discover.png';
+import Refresh from '../assets/refresh.png';
+
 let Schedule = React.createClass({
-  render() {
-    return (
-      <div id="outer-container">
-        <section className="hero home">
-          <MobileMenu/>
-          <div className="hero-body">
-            <div className="container has-text-centered">
-              <h1 className="title is-1">
-                404 Not Found
-              </h1><br/>
-              <h2 className="subtitle is-3">
-                “In the province of the mind, what one believes to be true, either is true or becomes true within certain limits. These limits are to be found experientially and experimentally. When the limits are determined, it is found that they are further beliefs to be transcended. In the province of the mind, there are no limits. The body imposes definite limits.”
-              </h2>
+    render() {
+      return (
+        <div id="outer-container">
+          <Header/>
+          <section className="section schedule">
+            <div className="container">
+              <h3 className="title is-2 has-text-centered">What to Expect</h3>
+              <p className="has-text-centered">Throughout the weekend, you’ll meet with industry leaders and be inspired by the innovation and passion that surrounds you.</p>
+              <div className="columns">
+                <div className="column">
+                  <div className="content has-text-centered">
+                    <img className="circle" src={ConnectImage} alt="Rise Float Conference Speaker Stephen Johnson"/>
+                    <h3>Connect</h3>
+                    <p>On Friday, we’ll meet up for a networking happy hour at <a href="http://www.hotelignaciostl.com/" target="_blank">Hotel Ignacio</a>. You’ll meet industry leaders and passionate float center leaders.</p>
+                  </div>
+                </div>
+                <div className="column">
+                  <div className="content has-text-centered">
+                  <img className="circle" src={DiscoverImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
+                    <h3>Discover</h3>
+                    <p>Saturday will include informational float and wellness sessions, the opportunity to learn about community development, and keynotes from six inspiring industry leaders.</p>
+                  </div>
+                </div>
+                <div className="column">
+                  <div className="content has-text-centered">
+                    <img className="circle" src={Refresh} alt="Rise Float Conference Speakers Graham Talley & Ashkahn Jahromi"/>
+                    <h3>Refresh</h3>
+                    <p>On Sunday, we’ll have the chance to sit back, relax and reflect. Take a moment to enjoy the community before heading back to daily life.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="columns is-mobile has-text-centered is-hidden">
+                <div className="column is-half is-offset-one-quarter">
+                  <a className="button is-large" href="/schedule/">See Full Schedule</a>
+                </div>
+              </div>
             </div>
-          </div>
-        </section>
-        <Particles params={ParticleParams} height={600} style={{'marginTop': '-600px'}}/>
-        <Footer/>
-      </div>
-    );
-  }
+          </section>
+          <Footer/>
+        </div>
+      );
+    }
 });
 
 export default Schedule;

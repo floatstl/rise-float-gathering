@@ -3,33 +3,26 @@ import Particles from 'react-particles-js';
 import ParticleParams from './../particles.json';
 
 import Header from './Header';
-import Hero from './home/Hero';
-import TicketCallout from './home/TicketCallout';
-import Speakers from './home/Speakers';
-import Schedule from './home/Schedule';
-import GeneralInfo from './home/GeneralInfo';
-import Sponsors from './home/Sponsors';
 import Footer from './Footer';
 
-let Home = React.createClass({
+let Schedule = React.createClass({
   render() {
     return (
       <div id="outer-container">
         <section className="hero home">
           <Header isHome={true}/>
-          <Hero/>
+          <div className="hero-body">
+            <div className="container has-text-centered">
+            <h3 className="title is-2 has-text-centered">Want to be a Vendor or Sponsor at Rise?</h3>
+            <p className="has-text-centered">Please submit all inquiries to <a href="mailto:info@risefloatgathering.com">info@risefloatgathering.com</a></p>
+          </div>
+          </div>
         </section>
         <Particles params={ParticleParams} height={600} style={{'marginTop': '-600px'}}/>
-        <TicketCallout/>
-        <section className="top">
-          <Speakers/>
-        </section>
-        <Schedule/>
-        <GeneralInfo/>
         <Footer/>
       </div>
     );
   }
 });
 
-export default Home;
+export default Schedule;

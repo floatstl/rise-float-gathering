@@ -12,19 +12,20 @@ let MobileMenu = React.createClass({
       <span key="0" className="title is-3 bold">General Information</span>,
       <a key="1" href="/">Home</a>,
       <a key="2" href="/speakers/">Speakers</a>,
+      <a key="3"  href="/schedule/">Schedule</a>,
       <br key="4"/>,
       <a key="5" className="button is-large" href="https://rise.bazaarpass.com/products/2017" target="_blank">Get Tickets</a>,
       <br key="6"/>,
-      <hr key="6"/>,
-      <br key="7"/>,
-      <div key="8"className="is-hidden"><span className="title is-4 bold">Resources</span>,
-      <a key="9" style={{fontSize: '1.2rem'}} href="/about/"><span>About Rise</span></a>,
-      <a key="10" style={{fontSize: '1.2rem'}} href="/vendors-and-sponsors/"><span>Vendors & Sponsors</span></a>,
-      <a key="11" style={{fontSize: '1.2rem'}} href="https://floatinstl.com" target="_blank"><span>Float STL</span></a>,
-      <a key="12" style={{fontSize: '1.2rem'}} href="https://floatingstl.com/about/" target="_blank"><span>Meet the Team</span></a>,
-      <hr key="13"/></div>,
-      <a key="14" href="https://www.facebook.com/events/1901297480100411/" target="_blank"><span className="title is-4 bold">Connect With Us</span></a>,
-      <span key="15" className="icon"><a href="https://www.facebook.com/events/1901297480100411/" target="_blank"><i className="fa fa-facebook" style={{'color': 'white'}} aria-hidden="true"></i></a></span>,
+      <hr key="7"/>,
+      <br key="8"/>,
+      <span key="9" className="title is-4 bold">Resources</span>,
+      <a key="10" style={{fontSize: '1.2rem'}} href="/about/"><span>About Rise</span></a>,
+      <a key="11" style={{fontSize: '1.2rem'}} href="/vendors-and-sponsors/"><span>Vendors & Sponsors</span></a>,
+      <a key="12" style={{fontSize: '1.2rem'}} href="https://floatingstl.com" target="_blank"><span>FLOAT STL</span></a>,
+      <a key="13" style={{fontSize: '1.2rem'}} href="https://floatingstl.com/about/" target="_blank"><span>Meet the Team</span></a>,
+      <hr key="14"/>,
+      <a key="15" href="https://www.facebook.com/events/1901297480100411/" target="_blank"><span className="title is-4 bold">Connect With Us</span></a>,
+      <span key="16" className="icon"><a href="https://www.facebook.com/events/1901297480100411/" target="_blank"><i className="fa fa-facebook" style={{'color': 'white'}} aria-hidden="true"></i></a></span>,
     ]
 
     let MenuWrap = React.createClass({
@@ -81,6 +82,11 @@ let MobileMenu = React.createClass({
           showMobileMenu: 'none',
         });
       }
+      if (window.pageYOffset < 5) {
+        this.setState({
+          showMobileMenu: 'block',
+        });
+      }
     }
 
     // if scroll is 0 show mobile nav
@@ -120,7 +126,7 @@ let MobileMenu = React.createClass({
                   <a href="/speakers/">Speakers</a>
                 </div>
                 <div className="column is-one-fourth menu-item">
-                  <a href="#schedule">Schedule</a>
+                  <a href="/schedule/">Schedule</a>
                 </div>
                <div className="column is-one-fourth menu-item">
                 <a className="button is-large" href="https://rise.bazaarpass.com/products/2017" target="_blank">Buy Your Tickets</a>

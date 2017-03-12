@@ -2,7 +2,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import ParticleParams from './../particles.json';
 
-import MobileMenu from './Header';
+import Header from './Header';
 import Footer from './Footer';
 
 let NotFound = React.createClass({
@@ -10,7 +10,7 @@ let NotFound = React.createClass({
     return (
       <div id="outer-container">
         <section className="hero home">
-          <MobileMenu/>
+          <Header isHome={true}/>
           <div className="hero-body">
             <div className="container has-text-centered not-found">
               <h1 className="title is-1">

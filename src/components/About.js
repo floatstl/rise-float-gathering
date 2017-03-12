@@ -2,7 +2,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import ParticleParams from './../particles.json';
 
-import MobileMenu from './Header';
+import Header from './Header';
 import Footer from './Footer';
 
 let About = React.createClass({
@@ -10,15 +10,12 @@ let About = React.createClass({
     return (
       <div id="outer-container">
         <section className="hero home">
-          <MobileMenu/>
+          <Header isHome={true}/>
           <div className="hero-body">
             <div className="container has-text-centered">
-              <h1 className="title is-1">
-                404 Not Found
-              </h1><br/>
-              <h2 className="subtitle is-3">
-                “In the province of the mind, what one believes to be true, either is true or becomes true within certain limits. These limits are to be found experientially and experimentally. When the limits are determined, it is found that they are further beliefs to be transcended. In the province of the mind, there are no limits. The body imposes definite limits.”
-              </h2>
+              <h1 className="title is-1">About Rise</h1><br/>
+              <h2 className="subtitle is-3">Coming Soon</h2>
+              <span className="icon"><a href="https://www.facebook.com/events/1901297480100411/" target="_blank"><i className="fa fa-facebook" style={{'color': 'white'}} aria-hidden="true"></i></a></span>
             </div>
           </div>
         </section>

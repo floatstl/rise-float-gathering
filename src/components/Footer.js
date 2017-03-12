@@ -45,7 +45,7 @@ let TicketInfo = React.createClass({
                   </div>
                 </div>
               </div>
-              <div className="columns footer-links is-hidden">
+              <div className="columns footer-links">
                 <div className="column">
                   <a href="/about/">About Rise</a>
                 </div>
