@@ -4,7 +4,6 @@ import ParticleParams from './../particles.json';
 
 import Header from './Header';
 import Hero from './home/Hero';
-import TicketCallout from './home/TicketCallout';
 import Speakers from './home/Speakers';
 import Schedule from './home/Schedule';
 import GeneralInfo from './home/GeneralInfo';
@@ -20,7 +19,6 @@ let Home = React.createClass({
           <Hero/>
         </section>
         <Particles params={ParticleParams} height={600} style={{'marginTop': '-600px'}}/>
-        <TicketCallout/>
         <section className="top">
           <Speakers/>
         </section>

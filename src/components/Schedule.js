@@ -1,4 +1,5 @@
 import React from 'react';
+import AddToCalendar from 'react-add-to-calendar';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -39,15 +40,26 @@ let Schedule = React.createClass({
                   </div>
                 </div>
               </div>
-              <div className="columns is-mobile has-text-centered is-hidden">
-                <div className="column is-half is-offset-one-quarter">
-                  <a className="button is-large" href="/schedule/">See Full Schedule</a>
-                </div>
-              </div>
             </div>
           </section>
-          <Footer/>
-        </div>
+          <section className="section schedule-details">
+            <div className="container has-text-centered">
+              <h3 className="title is-2 has-text-centered">Schedule</h3>
+              <p className="has-text-centered">Coming Soon!</p><br/><br/>
+              <AddToCalendar
+                event={{
+                  title: 'Rise: Float Community Gathering',
+                  description: 'Rise is a gathering of float industry enthusiasts and professionals to connect, discover and relax. Learn more and purchase tickets at http://riserfloatgathering.com',
+                  location: '4240 Duncan Ave St. Louis, MO 63110',
+                  startTime: '2017-04-28T19:00:00-04:00',
+                  endTime: '2017-04-30T19:00:00-04:00'
+                }}
+                buttonTemplate={{ 'calendar-plus-o': 'left' }}
+                className="has-text-centered"/><br/>
+            </div>
+          </section>
+        <Footer/>
+      </div>
       );
     }
 });

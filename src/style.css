@@ -6524,3 +6524,25 @@ button.delete {
 .speakers-page img {
   filter: grayscale(0);
 }
+
+.react-add-to-calendar i.fa {
+  margin-top: 2px;
+  margin-right: 4px;
+}
+
+.react-add-to-calendar a:hover {
+  color: rgba(244,187,69,1);
+}
+
+footer .react-add-to-calendar .react-add-to-calendar__dropdown ul li {
+  list-style: none !important;
+}
+
+footer .react-add-to-calendar i.fa {
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+footer .react-add-to-calendar a {
+  font-size: 1.15rem;
+}

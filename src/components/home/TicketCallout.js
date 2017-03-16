@@ -8,8 +8,7 @@ let TicketCallout = React.createClass({
           <div className="box content">
             <div className="level">
               <div className="level-item has-text-centered">
-                <h2>Early bird tickets on sale through March 15th!</h2>
-                <a className="button is-large is-pulled-right buy-now" href="https://rise.bazaarpass.com/products/2017" target="_blank">Buy Now</a>
+                <h2>Rise is a place to be reminded of and connect with <a href="/about/">The Heart of Floating.</a></h2>
               </div>
               </div>
             </div>

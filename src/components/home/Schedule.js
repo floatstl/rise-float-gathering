@@ -35,7 +35,7 @@ let Schedule = React.createClass({
                 </div>
               </div>
             </div>
-            <div className="columns is-mobile has-text-centered is-hidden">
+            <div className="columns is-mobile has-text-centered">
               <div className="column is-half is-offset-one-quarter">
                 <a className="button is-large" href="/schedule/">See Full Schedule</a>
               </div>
