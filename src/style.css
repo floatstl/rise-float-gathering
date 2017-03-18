@@ -6521,7 +6521,7 @@ button.delete {
   font-size: 1.25rem;
 }
 
-.speakers-page img {
+.speakers-page img, .about-page img {
   filter: grayscale(0);
 }
 
