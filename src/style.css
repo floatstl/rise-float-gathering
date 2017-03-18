@@ -6546,3 +6546,7 @@ footer .react-add-to-calendar i.fa {
 footer .react-add-to-calendar a {
   font-size: 1.15rem;
 }
+
+.rbc-event {
+  background-color: rgba(0,157,180,1);
+}

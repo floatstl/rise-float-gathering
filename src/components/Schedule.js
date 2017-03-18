@@ -10,6 +10,8 @@ import ConnectImage from '../assets/connect.png';
 import DiscoverImage from '../assets/discover.png';
 import Refresh from '../assets/refresh.png';
 
+import 'react-big-calendar/lib/css/react-big-calendar.css';
+
 BigCalendar.setLocalizer(
   BigCalendar.momentLocalizer(moment)
 );
@@ -21,82 +23,71 @@ let Schedule = React.createClass({
           <Header/>
           <section className="section schedule-details">
             <div className="container has-text-centered">
-              <h3 className="title is-2 has-text-centered">Schedule</h3>
-              <p className="has-text-centered">Coming Soon!</p><br/><br/>
+              <h3 className="title is-2 has-text-centered">Schedule</h3><br/>
               <BigCalendar
                  {...this.props}
+                 style={{'height':'800px'}}
+                 defaultView={'agenda'}
+                 defaultDate={new Date(2017, 3, 28)}
+                 min={ new Date(2017, 3, 28, 8, 0, 0)}
+                 max={new Date(2017, 3, 28, 22,0,0)}
                  events={[
                   {
-                    'title': 'All Day Event',
+                    'title': 'Rise Conference - Day 1',
                     'allDay': true,
-                    'start': new Date(2015, 3, 0),
-                    'end': new Date(2015, 3, 1)
+                    'start': new Date(2017, 3, 28),
+                    'end': new Date(2017, 3, 28)
                   },
                   {
-                    'title': 'Long Event',
-                    'start': new Date(2015, 3, 7),
-                    'end': new Date(2015, 3, 10)
+                    'title': 'Rise Conference - Day 2',
+                    'allDay': true,
+                    'start': new Date(2017, 3, 29),
+                    'end': new Date(2017, 3, 29)
+                  },
+                  {
+                    'title': 'Rise Conference - Day 3',
+                    'allDay': true,
+                    'start': new Date(2017, 3, 30),
+                    'end': new Date(2017, 3, 28)
+                  },
+                  {
+                    'title': 'Welcome Event at Triumph',
+                    'start': new Date(2017, 3, 28, 18, 30, 0),
+                    'end': new Date(2017, 3, 28, 21, 0, 0)
                   },
 
                   {
-                    'title': 'DTS STARTS',
-                    'start': new Date(2016, 2, 13, 0, 0, 0),
-                    'end': new Date(2016, 2, 20, 0, 0, 0)
+                    'title': 'Event Registration',
+                    'start': new Date(2017, 3, 29, 8, 0, 0),
+                    'end': new Date(2017, 3, 29, 9, 0, 0)
                   },
 
                   {
-                    'title': 'DTS ENDS',
-                    'start': new Date(2016, 10, 6, 0, 0, 0),
-                    'end': new Date(2016, 10, 13, 0, 0, 0)
+                    'title': 'Rise Event Day 1',
+                    'start': new Date(2017, 3, 29, 9, 0, 0),
+                    'end': new Date(2017, 3, 29, 17, 0, 0)
                   },
 
                   {
-                    'title': 'Some Event',
-                    'start': new Date(2015, 3, 9, 0, 0, 0),
-                    'end': new Date(2015, 3, 9, 0, 0, 0)
+                    'title': 'Rise Happy Hour',
+                    'start': new Date(2017, 3, 29, 17, 0, 0),
+                    'end': new Date(2017, 3, 29, 19, 30, 0)
                   },
                   {
-                    'title': 'Conference',
-                    'start': new Date(2015, 3, 11),
-                    'end': new Date(2015, 3, 13),
-                    desc: 'Big conference for important people'
-                  },
-                  {
-                    'title': 'Meeting',
-                    'start': new Date(2015, 3, 12, 10, 30, 0, 0),
-                    'end': new Date(2015, 3, 12, 12, 30, 0, 0),
+                    'title': 'Rise Breakfast and Connect',
+                    'start': new Date(2017, 3, 30, 8, 30, 0),
+                    'end': new Date(2017, 3, 30, 9, 30, 0, 0),
                     desc: 'Pre-meeting meeting, to prepare for the meeting'
                   },
                   {
-                    'title': 'Lunch',
-                    'start':new Date(2015, 3, 12, 12, 0, 0, 0),
-                    'end': new Date(2015, 3, 12, 13, 0, 0, 0),
+                    'title': 'Rise Event Day 2',
+                    'start': new Date(2017, 3, 30, 9, 30, 0),
+                    'end': new Date(2017, 3, 30, 12, 0, 0, 0),
                     desc: 'Power lunch'
                   },
-                  {
-                    'title': 'Meeting',
-                    'start':new Date(2015, 3, 12,14, 0, 0, 0),
-                    'end': new Date(2015, 3, 12,15, 0, 0, 0)
-                  },
-                  {
-                    'title': 'Happy Hour',
-                    'start':new Date(2015, 3, 12, 17, 0, 0, 0),
-                    'end': new Date(2015, 3, 12, 17, 30, 0, 0),
-                    desc: 'Most important meal of the day'
-                  },
-                  {
-                    'title': 'Dinner',
-                    'start':new Date(2015, 3, 12, 20, 0, 0, 0),
-                    'end': new Date(2015, 3, 12, 21, 0, 0, 0)
-                  },
-                  {
-                    'title': 'Birthday Party',
-                    'start':new Date(2015, 3, 13, 7, 0, 0),
-                    'end': new Date(2015, 3, 13, 10, 30, 0)
-                  }
                 ]}
-                 defaultDate={new Date(2015, 3, 1)}
                />
+               <br/><br/><br/>
               <AddToCalendar
                 event={{
                   title: 'Rise: Float Community Gathering',
