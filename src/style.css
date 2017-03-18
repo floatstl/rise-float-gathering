@@ -6555,3 +6555,11 @@ footer .react-add-to-calendar a {
   background-color: rgba(244,187,69,1);
   border: 1px solid rgba(244,187,69,1);
 }
+
+.rbc-day-slot .rbc-event {
+  z-index: 0 !important;
+}
+.about-page .content blockquote {
+  background-color: rgba(244,187,69,0.5);
+  color: white;
+}

@@ -57,8 +57,8 @@ let Schedule = React.createClass({
               <h3 className="title is-2 has-text-centered">Schedule</h3><br/>
               <BigCalendar
                  {...this.props}
-                 style={{'height':'800px'}}
-                 defaultView={'week'}
+                 style={{'height':'800px', 'overflow':'hidden'}}
+                 defaultView={'agenda'}
                  defaultDate={new Date(2017, 3, 28)}
                  min={ new Date(2017, 3, 28, 8, 0, 0)}
                  max={new Date(2017, 3, 28, 22,0,0)}
