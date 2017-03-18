@@ -9,6 +9,8 @@ import Footer from './Footer';
 import ConnectImage from '../assets/connect.png';
 import DiscoverImage from '../assets/discover.png';
 import Refresh from '../assets/refresh.png';
+import AtPeaceFloatSpa from '../assets/atpeacefloatspa.png';
+import SeoulTaco from '../assets/seoultacologo.png';
 
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
@@ -27,31 +29,13 @@ let Schedule = React.createClass({
               <BigCalendar
                  {...this.props}
                  style={{'height':'800px'}}
-                 defaultView={'agenda'}
+                 defaultView={'week'}
                  defaultDate={new Date(2017, 3, 28)}
                  min={ new Date(2017, 3, 28, 8, 0, 0)}
                  max={new Date(2017, 3, 28, 22,0,0)}
                  events={[
                   {
-                    'title': 'Rise Conference - Day 1',
-                    'allDay': true,
-                    'start': new Date(2017, 3, 28),
-                    'end': new Date(2017, 3, 28)
-                  },
-                  {
-                    'title': 'Rise Conference - Day 2',
-                    'allDay': true,
-                    'start': new Date(2017, 3, 29),
-                    'end': new Date(2017, 3, 29)
-                  },
-                  {
-                    'title': 'Rise Conference - Day 3',
-                    'allDay': true,
-                    'start': new Date(2017, 3, 30),
-                    'end': new Date(2017, 3, 28)
-                  },
-                  {
-                    'title': 'Welcome Event at Triumph',
+                    'title': 'Rise Welcome Event at Triumph',
                     'start': new Date(2017, 3, 28, 18, 30, 0),
                     'end': new Date(2017, 3, 28, 21, 0, 0)
                   },
@@ -97,7 +81,20 @@ let Schedule = React.createClass({
                   endTime: '2017-04-30T19:00:00-04:00'
                 }}
                 buttonTemplate={{ 'calendar-plus-o': 'left' }}
-                className="has-text-centered"/><br/>
+                className="has-text-centered"/><br/><br/><br/>
+                <div className="container has-text-centered">
+                  <h4 className="title is-2">Saturday Lunch Sponsored By:</h4>
+                  <div className="columns">
+                    <div className="column">
+                      <a href="http://atpeacefloatationspa.com/" target="_blank"><img style={{'height':'200px'}} src={AtPeaceFloatSpa} alt="At Peace Float Cabins"/></a>
+                    </div>
+                    <div className="column">
+                      <div className="content">
+                        <a href="http://www.seoultaco.com/" target="_blank"><img style={{'height':'300px'}} src={SeoulTaco} alt="Seoul Taco"/></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
           </section>
           <section className="section schedule">
