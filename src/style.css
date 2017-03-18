@@ -6550,3 +6550,8 @@ footer .react-add-to-calendar a {
 .rbc-event {
   background-color: rgba(0,157,180,1);
 }
+
+.rbc-event.rbc-selected {
+  background-color: rgba(244,187,69,1);
+  border: 1px solid rgba(244,187,69,1);
+}
