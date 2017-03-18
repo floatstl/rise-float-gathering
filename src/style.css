@@ -6183,7 +6183,6 @@ nav a, nav a img, nav .button {
 }
 
 .home.hero {
-  background: url(./assets/orange-waves.png) no-repeat top center;
   background: url(./assets/gradient.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -6204,7 +6203,11 @@ section.schedule {
   background-size: cover;
 }
 
-section.schedule h3 {
+section.schedule-page {
+  background: rgba(244,187,69,1);
+}
+
+section.schedule h3, section.schedule-page h3 {
   color: white;
 }
 
@@ -6427,7 +6430,7 @@ footer .footer-links {
   display: none;
 }
 
-.info p, .schedule p, .speakers p {
+.info p, .schedule p, .speakers p, .schedule-page p {
   font-size: 1.25rem;
   color: black;
 }
@@ -6521,7 +6524,7 @@ button.delete {
   font-size: 1.25rem;
 }
 
-.speakers-page img, .about-page img {
+.speakers-page img, .about-page img, .schedule-page img {
   filter: grayscale(0);
 }
 

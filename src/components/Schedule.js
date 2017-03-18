@@ -23,7 +23,7 @@ let Schedule = React.createClass({
       return (
         <div id="outer-container">
           <Header/>
-          <section className="section schedule">
+          <section className="section schedule-page">
             <div className="container">
               <h3 className="title is-2 has-text-centered">What to Expect</h3>
               <p className="has-text-centered">Throughout the weekend, you’ll meet with industry leaders and be inspired by the innovation and passion that surrounds you.</p>
@@ -64,15 +64,15 @@ let Schedule = React.createClass({
                  max={new Date(2017, 3, 28, 22,0,0)}
                  events={[
                   {
-                    'title': 'Rise Welcome Event at Triumph',
+                    'title': 'Rise Welcome Event - Triumph Grill @ Hotel Ignacio - http://triumphgrill.com/ | 3419 Olive',
                     'start': new Date(2017, 3, 28, 18, 30, 0),
                     'end': new Date(2017, 3, 28, 21, 0, 0)
                   },
 
                   {
-                    'title': 'Event Registration',
+                    'title': 'Event Registration @4240 - http://www.at4240.com/ | 4240 Duncan',
                     'start': new Date(2017, 3, 29, 8, 0, 0),
-                    'end': new Date(2017, 3, 29, 9, 0, 0)
+                    'end': new Date(2017, 3, 29, 8, 45, 0)
                   },
 
                   {
@@ -82,21 +82,21 @@ let Schedule = React.createClass({
                   },
 
                   {
-                    'title': 'Rise Happy Hour',
+                    'title': 'Rise Happy Hour - Venture Cafe at @4240 | 4240 Duncan',
                     'start': new Date(2017, 3, 29, 17, 0, 0),
                     'end': new Date(2017, 3, 29, 19, 30, 0)
                   },
                   {
-                    'title': 'Rise Breakfast and Connect',
+                    'title': 'Rise Breakfast and Connect - @4240 | 4240 Duncan',
                     'start': new Date(2017, 3, 30, 8, 30, 0),
                     'end': new Date(2017, 3, 30, 9, 30, 0, 0),
-                    desc: 'Pre-meeting meeting, to prepare for the meeting'
+                    'desc': 'Pre-meeting meeting, to prepare for the meeting'
                   },
                   {
                     'title': 'Rise Event Day 2',
                     'start': new Date(2017, 3, 30, 9, 30, 0),
                     'end': new Date(2017, 3, 30, 12, 0, 0, 0),
-                    desc: 'Power lunch'
+                    'desc': 'Power lunch'
                   },
                 ]}
                />
@@ -112,7 +112,7 @@ let Schedule = React.createClass({
                 buttonTemplate={{ 'calendar-plus-o': 'left' }}
                 className="has-text-centered"/><br/><br/><br/>
                 <div className="container has-text-centered">
-                  <h4 className="title is-2">Saturday Lunch Sponsored By:</h4>
+                  <h4 className="title is-3">Saturday Lunch Sponsored By:</h4>
                   <div className="columns">
                     <div className="column">
                       <a href="http://atpeacefloatationspa.com/" target="_blank"><img style={{'height':'200px'}} src={AtPeaceFloatSpa} alt="At Peace Float Cabins"/></a>
