@@ -2,7 +2,8 @@ import React from 'react';
 
 import AtPeaceFloatSpa from '../../assets/atpeacefloatspa.png';
 import SuperiorFloatTanks from '../../assets/superior-float-tanks-logo.png';
-import FlotationLocations from '../../assets/floatation-locations-logo.png'
+import FlotationLocations from '../../assets/floatation-locations-logo.png';
+import Conscious from '../../assets/conscious.png';
 
 let Sponsors = React.createClass({
   render() {
@@ -18,14 +19,27 @@ let Sponsors = React.createClass({
               </a>
             </div>
             <div className="column">
-              <a href="http://superiorfloattanks.com/" target="_blank">
-                <img src={SuperiorFloatTanks} alt="Superior Float Tanks Website"/>
+              <a href="http://consciousapothecary.com/" target="_blank">
+                <img src={Conscious} alt="Flotation Locations Website"/>
               </a>
             </div>
             <div className="column">
               <a href="http://floatationlocations.com/" target="_blank">
                 <img src={FlotationLocations} alt="Flotation Locations Website"/>
               </a>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="column">
+
+            </div>
+            <div className="column">
+              <a href="http://superiorfloattanks.com/" target="_blank">
+                <img src={SuperiorFloatTanks} alt="Superior Float Tanks Website"/>
+              </a>
+            </div>
+            <div className="column">
+
             </div>
           </div>
         </div>
