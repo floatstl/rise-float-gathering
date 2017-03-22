@@ -4,6 +4,7 @@ import ParticleParams from './../particles.json';
 
 import Header from './Header';
 import Footer from './Footer';
+import Sponsors from './home/Sponsors';
 
 let Schedule = React.createClass({
   render() {
@@ -19,6 +20,7 @@ let Schedule = React.createClass({
           </div>
         </section>
         <Particles params={ParticleParams} height={600} style={{'marginTop': '-600px'}}/>
+        <Sponsors/>
         <Footer/>
       </div>
     );

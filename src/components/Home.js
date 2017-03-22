@@ -24,6 +24,7 @@ let Home = React.createClass({
         </section>
         <Schedule/>
         <GeneralInfo/>
+        <Sponsors/>
         <Footer/>
       </div>
     );

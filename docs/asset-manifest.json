@@ -1,13 +1,14 @@
 {
   "main.css": "static/css/main.666c76d3.css",
   "main.css.map": "static/css/main.666c76d3.css.map",
-  "main.js": "static/js/main.d9176701.js",
-  "main.js.map": "static/js/main.d9176701.js.map",
+  "main.js": "static/js/main.657ef043.js",
+  "main.js.map": "static/js/main.657ef043.js.map",
   "static/media/andy-zaremba-rise-speaker.png": "static/media/andy-zaremba-rise-speaker.b081ae1c.png",
   "static/media/ashkahn-jahromi-rise-speaker.png": "static/media/ashkahn-jahromi-rise-speaker.11009a74.png",
   "static/media/atpeacefloatspa.png": "static/media/atpeacefloatspa.f17d3a46.png",
   "static/media/connect.png": "static/media/connect.9e20e354.png",
   "static/media/discover.png": "static/media/discover.68e87594.png",
+  "static/media/floatation-locations-logo.png": "static/media/floatation-locations-logo.088893cf.png",
   "static/media/fontawesome-webfont.eot?v=4.7.0": "static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
@@ -28,5 +29,6 @@
   "static/media/seoultacologo.png": "static/media/seoultacologo.269add7a.png",
   "static/media/sponsors-swoosh.png": "static/media/sponsors-swoosh.f41b59dd.png",
   "static/media/stephen-johnson.png": "static/media/stephen-johnson.aace3d1a.png",
+  "static/media/superior-float-tanks-logo.png": "static/media/superior-float-tanks-logo.f047c7c1.png",
   "static/media/top-swoosh.png": "static/media/top-swoosh.f2d51ed8.png"
 }

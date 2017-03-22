@@ -13,13 +13,13 @@ let MobileMenu = React.createClass({
       <a key="1" href="/">Home</a>,
       <a key="2" href="/speakers/">Speakers</a>,
       <a key="3"  href="/schedule/">Schedule</a>,
+      <a key="10" href="/about/">About</a>,
       <br key="4"/>,
       <a key="5" className="button is-large" href="https://rise.bazaarpass.com/products/2017" target="_blank">Get Tickets</a>,
       <br key="6"/>,
       <hr key="7"/>,
       <br key="8"/>,
       <span key="9" className="title is-4 bold">Resources</span>,
-      <a key="10" style={{fontSize: '1.2rem'}} href="/about/"><span>About Rise</span></a>,
       <a key="11" style={{fontSize: '1.2rem'}} href="/vendors-and-sponsors/"><span>Vendors & Sponsors</span></a>,
       <a key="12" style={{fontSize: '1.2rem'}} href="https://floatingstl.com" target="_blank"><span>FLOAT STL</span></a>,
       <a key="13" style={{fontSize: '1.2rem'}} href="https://floatingstl.com/about/" target="_blank"><span>Meet the Team</span></a>,
@@ -119,16 +119,19 @@ let MobileMenu = React.createClass({
           <nav className={this.state.navColor + ' nav'}>
             <div className="container">
               <div className="columns">
-                <div className="column is-one-fourth logo">
+                <div className="column is-one-fifth logo">
                   <a href="/"><span><img src={logo} alt="Rise - A Float Community Gathering Logo White" /></span></a>
                 </div>
-                <div className="column is-one-fourth menu-item">
+                <div className="column is-one-fifth menu-item">
                   <a href="/speakers/">Speakers</a>
                 </div>
-                <div className="column is-one-fourth menu-item">
+                <div className="column is-one-fifth menu-item">
                   <a href="/schedule/">Schedule</a>
                 </div>
-               <div className="column is-one-fourth menu-item">
+                <div className="column is-one-fifth menu-item">
+                  <a href="/about/">About</a>
+                </div>
+               <div className="column is-one-fifth menu-item">
                 <a className="button is-large" href="https://rise.bazaarpass.com/products/2017" target="_blank">Buy Your Tickets</a>
               </div>
               </div>
