@@ -68,35 +68,101 @@ let Schedule = React.createClass({
                     'start': new Date(2017, 3, 28, 18, 30, 0),
                     'end': new Date(2017, 3, 28, 21, 0, 0)
                   },
-
                   {
                     'title': 'Event Registration @4240 - http://www.at4240.com/ | 4240 Duncan',
-                    'start': new Date(2017, 3, 29, 8, 0, 0),
+                    'start': new Date(2017, 3, 29, 8, 15, 0),
                     'end': new Date(2017, 3, 29, 8, 45, 0)
                   },
-
                   {
-                    'title': 'Rise Event Day 1',
-                    'start': new Date(2017, 3, 29, 9, 0, 0),
-                    'end': new Date(2017, 3, 29, 17, 0, 0)
-                  },
-
-                  {
-                    'title': 'Rise Happy Hour - Venture Cafe at @4240 | 4240 Duncan',
-                    'start': new Date(2017, 3, 29, 17, 0, 0),
-                    'end': new Date(2017, 3, 29, 19, 30, 0)
+                    'title': 'Opening Remarks',
+                    'start': new Date(2017, 3, 29, 9, 15, 0),
+                    'end': new Date(2017, 3, 29, 9, 30, 0)
                   },
                   {
-                    'title': 'Rise Breakfast and Connect - @4240 | 4240 Duncan',
-                    'start': new Date(2017, 3, 30, 8, 30, 0),
-                    'end': new Date(2017, 3, 30, 9, 30, 0, 0),
+                    'title': 'Stephen Johnson',
+                    'start': new Date(2017, 3, 29, 9, 30, 0),
+                    'end': new Date(2017, 3, 29, 10, 0, 0)
+                  },
+                  {
+                    'title': 'Lee Perry',
+                    'start': new Date(2017, 3, 29, 10, 0, 0),
+                    'end': new Date(2017, 3, 29, 10, 35, 0)
+                  },
+                  {
+                    'title': 'Break',
+                    'start': new Date(2017, 3, 29, 10, 35, 0),
+                    'end': new Date(2017, 3, 29, 11, 0, 0)
+                  },
+                  {
+                    'title': 'Graham Talley and Ashkahn Jahromi',
+                    'start': new Date(2017, 3, 29, 11, 0, 0),
+                    'end': new Date(2017, 3, 29, 11, 45, 0)
+                  },
+                  {
+                    'title': 'Healing Power of Epsom Salt',
+                    'start': new Date(2017, 3, 29, 11, 45, 0),
+                    'end': new Date(2017, 3, 29, 12, 30, 0)
+                  },
+                  {
+                    'title': 'Lunch sponsored by At Peace Float Spas provided by Seoul Taco',
+                    'start': new Date(2017, 3, 29, 12, 30, 0),
+                    'end': new Date(2017, 3, 29, 14, 15, 0)
+                  },
+                  {
+                    'title': 'Movement/Sound',
+                    'start': new Date(2017, 3, 29, 14, 15, 0),
+                    'end': new Date(2017, 3, 29, 14, 30, 0)
+                  },
+                  {
+                    'title': 'Kevin Johnson',
+                    'start': new Date(2017, 3, 29, 14, 30, 0),
+                    'end': new Date(2017, 3, 29, 15, 15, 0)
+                  },
+                  {
+                    'title': 'Mike and Andy Zaremba',
+                    'start': new Date(2017, 3, 29, 15, 15, 0),
+                    'end': new Date(2017, 3, 29, 16, 0, 0)
+                  },
+                  {
+                    'title': 'TBD',
+                    'start': new Date(2017, 3, 29, 16, 0, 0),
+                    'end': new Date(2017, 3, 29, 16, 30, 0)
+                  },
+                  {
+                    'title': 'Happy Hour - Venture Cafe at @4240 | 4240 Duncan',
+                    'start': new Date(2017, 3, 29, 16, 30, 0),
+                    'end': new Date(2017, 3, 29, 18, 30, 0)
+                  },
+                  {
+                    'title': '(Optional) Morning Yoga',
+                    'start': new Date(2017, 3, 30, 7, 30, 0),
+                    'end': new Date(2017, 3, 30, 8, 30, 0)
+                  },
+                  {
+                    'title': 'Breakfast on site from Vincent Van Doughnuts',
+                    'start': new Date(2017, 3, 30, 8, 0, 0),
+                    'end': new Date(2017, 3, 30, 9, 0, 0),
                     'desc': 'Pre-meeting meeting, to prepare for the meeting'
                   },
                   {
-                    'title': 'Rise Event Day 2',
+                    'title': 'Movement',
+                    'start': new Date(2017, 3, 30, 9, 0, 0),
+                    'end': new Date(2017, 3, 30, 9, 30, 0)
+                  },
+                  {
+                    'title': 'The Art of Floating - Discussion',
                     'start': new Date(2017, 3, 30, 9, 30, 0),
-                    'end': new Date(2017, 3, 30, 12, 0, 0, 0),
-                    'desc': 'Power lunch'
+                    'end': new Date(2017, 3, 30, 10, 45, 0)
+                  },
+                  {
+                    'title': 'Ambassador Panel',
+                    'start': new Date(2017, 3, 30, 10, 45, 0),
+                    'end': new Date(2017, 3, 30, 11, 30, 0)
+                  },
+                  {
+                    'title': 'Closing Remarks',
+                    'start': new Date(2017, 3, 30, 11, 30, 0),
+                    'end': new Date(2017, 3, 30, 12, 0, 0)
                   },
                 ]}
                />
