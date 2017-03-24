@@ -7,6 +7,7 @@ import Footer from './Footer';
 
 import FloatLogo from '../assets/floatstl.png';
 import FloatSTL from '../assets/kevin-jake-marcio-float-stl.jpg';
+import ArtOfFloat from '../assets/art-of-float.png';
 
 let About = React.createClass({
   render() {
@@ -28,18 +29,27 @@ let About = React.createClass({
                   <blockquote>Kevin, Jake and Marcio - Founders of FLOAT STL</blockquote>
                 </a>
               </div>
-              <br/><br/>
+              <br/>
+              <br/>
               <p>When we commit to The Heart of Floating, we form relationships and communities. We share experiences, we connect, we learn, we teach. We care.</p>
               <br/>
               <p>Rise: Float Community Gathering is a place to connect to The Heart of Floating. Rise is an outgrowth of our desire to create, grow, maintain, and strengthen those bonds. It is a place to meet, gather, and celebrate. We have learned that sharing experiences and coming together in a shared space helps to develop and strengthen community. The purpose of Rise is to highlight these deeply held values and hold space for community integration. Looking forward, the healthy growth of this industry can only occur if we collectively honor and feed its roots.</p>
               <br/>
               <p>We are just getting started. This is just the beginning. Our goal for this first event is to invite and welcome individuals who have played an impactful role in our journey. We hold deep gratitude and respect for their contributions and are honored to have them here in Saint Louis for this float community event.</p>
-              <br/><br/><br/>
-              <div className="title is-1 has-text-centered"><span className="icon"><a href="https://www.facebook.com/events/1901297480100411/" target="_blank"><i className="fa fa-facebook" style={{'color': 'white'}} aria-hidden="true"></i></a></span></div>
+              <br/>
+              <br/>
+              <div className="podcast has-text-centered">
+                <a href="https://soundcloud.com/art-of-the-float/rise-a-float-gathering#t=22:22" target="_blank">
+                  <img src={ArtOfFloat} alt="Art of the Float Podcast Featuring Kevin, Jake and Marcio from Rise"/><br/><br/>
+                  <blockquote><p>Check out our podcast with Art of the Float where Jake, Marcio and Kevin share their vision for Rise and The Heart of Floating</p></blockquote>
+                </a>
+                <br/><br/>
+                <a className="button is-large" href="https://soundcloud.com/art-of-the-float/rise-a-float-gathering#t=22:22" target="_blank">Listen Now</a>
+              </div>
             </div>
           </div>
         </section>
-        <Particles params={ParticleParams} height={1900} style={{'marginTop': '-1900px'}}/>
+        <Particles params={ParticleParams} height={2900} style={{'marginTop': '-2900px'}}/>
         <Footer/>
       </div>
     );

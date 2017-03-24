@@ -6322,13 +6322,13 @@ section.sponsors {
   border: 2px solid white;
 }
 
-.schedule .button.is-large, .not-found .button.is-large {
+.schedule .button.is-large, .not-found .button.is-large, .podcast .button.is-large {
   color: white;
   background-color: rgba(244,187,69,1);
   border: 2px solid white;
 }
 
-.schedule .button.is-large:hover, .not-found .button.is-large:hover {
+.schedule .button.is-large:hover, .not-found .button.is-large:hover, .podcast .button.is-large:hover {
   color: rgba(244,187,69,1);
   background-color: white;
   border: 2px solid rgba(244,187,69,1);

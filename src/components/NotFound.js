@@ -22,7 +22,7 @@ let NotFound = React.createClass({
               <p className="subtitle is-4">
                 John C. Lilly
               </p><br/><br/>
-              <a className="button is-large" href="/" target="_blank">Learn More</a>
+              <a className="button is-large" href="/about/" target="_blank">Learn More</a>
             </div>
           </div>
         </section>
