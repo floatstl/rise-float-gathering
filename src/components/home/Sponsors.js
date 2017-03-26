@@ -6,6 +6,8 @@ import FlotationLocations from '../../assets/floatation-locations-logo.png';
 import Conscious from '../../assets/conscious.png';
 import BioMat from '../../assets/biomat.png';
 import SolSweat from '../../assets/sol-sweat.png';
+import EscapePods from '../../assets/escape-pods.png';
+import FloatRoomsUSA from '../../assets/float-rooms-usa.png';
 
 let Sponsors = React.createClass({
   render() {
@@ -21,30 +23,40 @@ let Sponsors = React.createClass({
               </a>
             </div>
             <div className="column">
-              <a href="http://consciousapothecary.com/" target="_blank">
-                <img src={Conscious} alt="Flotation Locations Website"/>
-              </a>
-            </div>
-            <div className="column">
-              <a href="http://floatationlocations.com/" target="_blank">
-                <img src={FlotationLocations} alt="Flotation Locations Website"/>
-              </a>
-            </div>
-          </div>
-          <div className="columns">
-            <div className="column">
-            <a href="http://superiorfloattanks.com/" target="_blank">
-              <img src={SolSweat} alt="Sol Sweat Website"/>
-            </a>
-            </div>
-            <div className="column">
               <a href="http://superiorfloattanks.com/" target="_blank">
                 <img src={SuperiorFloatTanks} alt="Superior Float Tanks Website"/>
               </a>
             </div>
             <div className="column">
+              <a href="https://escapepodtank.com/" target="_blank">
+                <img src={EscapePods} alt="Escape Pods Website"/>
+              </a>
+            </div>
+            <div className="column">
+              <a href="http://floatroomsusa.com/" target="_blank">
+                <img src={FloatRoomsUSA} alt="Float Rooms USA Website"/>
+              </a>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="column">
+              <a href="http://consciousapothecary.com/" target="_blank">
+                <img src={Conscious} alt="Flotation Locations Website"/>
+              </a>
+            </div>
+            <div className="column">
+              <a href="http://gosweattoday.com/" target="_blank">
+                <img src={SolSweat} alt="Sol Sweat Website"/>
+              </a>
+            </div>
+            <div className="column">
               <a href="https://libbie.thebiomatcompany.com/site/" target="_blank">
                 <img src={BioMat} alt="BioMat Website"/>
+              </a>
+            </div>
+            <div className="column">
+              <a href="http://floatationlocations.com/" target="_blank">
+                <img src={FlotationLocations} alt="Flotation Locations Website"/>
               </a>
             </div>
           </div>

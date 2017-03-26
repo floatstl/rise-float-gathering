@@ -7,7 +7,7 @@ let GeneralInfo = React.createClass({
         <div className="container">
           <div className="columns">
             <div className="column">
-              <h3 className="title is-2 has-text-centered">Hello St. Louis!</h3>
+              <h3 className="title is-2">Hello St. Louis!</h3>
               <p>Rise is conveniently and centrally located in St. Louis, Missouri. <a href="http://at4240.com/" target="_blank">@4240</a> is a <a href="https://en.wikipedia.org/wiki/Leadership_in_Energy_and_Environmental_Design" target="_blank">certified LEED Platinum building</a> and is surrounded by what humans want most including walking distance to green spaces, cafes and recreation areas.</p>
               <br/>
               <p><strong><a href="http://at4240.com/" target="_blank">@4240</a></strong></p>

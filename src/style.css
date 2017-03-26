@@ -6566,3 +6566,8 @@ footer .react-add-to-calendar a {
   background-color: rgba(244,187,69,0.5);
   color: white;
 }
+
+..s.u.m.o.me img {
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
