@@ -6568,6 +6568,6 @@ footer .react-add-to-calendar a {
 }
 
 ..s.u.m.o.me img {
-  -webkit-filter: grayscale(0);
-	filter: grayscale(0);
+  -webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
 }

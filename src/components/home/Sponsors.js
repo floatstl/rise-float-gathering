@@ -8,6 +8,8 @@ import BioMat from '../../assets/biomat.png';
 import SolSweat from '../../assets/sol-sweat.png';
 import EscapePods from '../../assets/escape-pods.png';
 import FloatRoomsUSA from '../../assets/float-rooms-usa.png';
+import FloatTankSolutions from '../../assets/float-tank-solutions.png';
+import FloatHelm from '../../assets/float-helm.png';
 
 let Sponsors = React.createClass({
   render() {
@@ -37,8 +39,18 @@ let Sponsors = React.createClass({
                 <img src={FloatRoomsUSA} alt="Float Rooms USA Website"/>
               </a>
             </div>
+            <div className="column">
+              <a href="http://floattanksolutions.com/" target="_blank">
+                <img src={FloatTankSolutions} alt="Float Tank Solutions Website"/>
+              </a>
+            </div>
           </div>
           <div className="columns">
+            <div className="column">
+              <a href="http://floatationlocations.com/" target="_blank">
+                <img src={FlotationLocations} alt="Flotation Locations Website"/>
+              </a>
+            </div>
             <div className="column">
               <a href="http://consciousapothecary.com/" target="_blank">
                 <img src={Conscious} alt="Flotation Locations Website"/>
@@ -55,8 +67,8 @@ let Sponsors = React.createClass({
               </a>
             </div>
             <div className="column">
-              <a href="http://floatationlocations.com/" target="_blank">
-                <img src={FlotationLocations} alt="Flotation Locations Website"/>
+              <a href="http://floathelm.com/" target="_blank">
+                <img src={FloatHelm} alt="Float Helm Website"/>
               </a>
             </div>
           </div>
