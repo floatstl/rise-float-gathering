@@ -16,7 +16,7 @@ let Sponsors = React.createClass({
     return (
       <section className="section sponsors">
         <div className="container has-text-centered">
-          <h4 className="title is-3">Rise 2017 is Produly Sponsored By</h4>
+          <h4 className="title is-3">Rise 2017 is Proudly Sponsored By</h4>
           <br/>
           <div className="columns">
             <div className="column">
