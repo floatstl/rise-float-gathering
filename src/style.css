@@ -6465,10 +6465,6 @@ img:hover {
   border-radius: 5px;
 }
 
-.ticket-callout .button:hover {
-  background-color:
-}
-
 .nav .button.is-large:hover{
   color: white;
 }
@@ -6567,7 +6563,23 @@ footer .react-add-to-calendar a {
   color: white;
 }
 
-..s.u.m.o.me img {
+.sumome-react-wysiwyg-scroll-box-image div img {
   -webkit-filter: grayscale(0) !important;
 	filter: grayscale(0) !important;
 }
+/*
+.sumome-react-wysiwyg-scroll-box-button div button {
+  background-color: rgba(0,157,180,1) !important;
+}
+
+.sumome-react-wysiwyg-scroll-box-button div button:hover {
+  background-color: rgba(244,187,69,1) !important;
+}
+
+.sumome-react-svg-image-container svg{
+  color: rgba(244,187,69,1) !important;
+}
+
+.sumome-react-svg-image-container svg:hover {
+  color: rgba(0,157,180,1) !important;
+}*/

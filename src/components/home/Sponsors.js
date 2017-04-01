@@ -10,6 +10,7 @@ import EscapePods from '../../assets/escape-pods.png';
 import FloatRoomsUSA from '../../assets/float-rooms-usa.png';
 import FloatTankSolutions from '../../assets/float-tank-solutions.png';
 import FloatHelm from '../../assets/float-helm.png';
+import SonixWellness from '../../assets/sonix-wellness.png';
 
 let Sponsors = React.createClass({
   render() {
@@ -39,11 +40,6 @@ let Sponsors = React.createClass({
                 <img src={FloatRoomsUSA} alt="Float Rooms USA Website"/>
               </a>
             </div>
-            <div className="column">
-              <a href="http://floattanksolutions.com/" target="_blank">
-                <img src={FloatTankSolutions} alt="Float Tank Solutions Website"/>
-              </a>
-            </div>
           </div>
           <div className="columns">
             <div className="column">
@@ -57,8 +53,8 @@ let Sponsors = React.createClass({
               </a>
             </div>
             <div className="column">
-              <a href="http://gosweattoday.com/" target="_blank">
-                <img src={SolSweat} alt="Sol Sweat Website"/>
+              <a href="http://www.sonixwellness.com/" target="_blank">
+                <img src={SonixWellness} alt="Sonix Wellness Website"/>
               </a>
             </div>
             <div className="column">
@@ -66,9 +62,21 @@ let Sponsors = React.createClass({
                 <img src={BioMat} alt="BioMat Website"/>
               </a>
             </div>
+          </div>
+          <div className="columns">
             <div className="column">
               <a href="http://floathelm.com/" target="_blank">
                 <img src={FloatHelm} alt="Float Helm Website"/>
+              </a>
+            </div>
+            <div className="column">
+              <a href="http://gosweattoday.com/" target="_blank">
+                <img src={SolSweat} alt="Sol Sweat Website"/>
+              </a>
+            </div>
+            <div className="column">
+              <a href="http://floattanksolutions.com/" target="_blank">
+                <img src={FloatTankSolutions} alt="Float Tank Solutions Website"/>
               </a>
             </div>
           </div>
