@@ -1,13 +1,10 @@
 import React from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
 import Modal from 'boron/WaveModal';
 
 import StephenJohnsonImage from '../../assets/stephen-johnson.png';
 import KevinJohnsonImage from '../../assets/kevin-johnson.png';
 import GrahamTalleyImage from '../../assets/graham-talley-rise-speaker.png';
 import AshkahnJahromiImage from '../../assets/ashkahn-jahromi-rise-speaker.png';
-import AndyZaremba from '../../assets/andy-zaremba-rise-speaker.png';
-import MikeZaremba from '../../assets/mike-zaremba-rise-speaker.png';
 import LeePerry from '../../assets/lee-perry.png';
 
 let Speakers = React.createClass({
@@ -20,8 +17,6 @@ let Speakers = React.createClass({
       this.refs.kevin.show();
     } else if (person === 'stephen') {
       this.refs.stephen.show();
-    } else if (person === 'mike') {
-      this.refs.mike.show();
     } else if (person === 'ashkahn') {
       this.refs.ashkahn.show();
     } else if (person === 'graham') {
@@ -36,8 +31,6 @@ let Speakers = React.createClass({
       this.refs.kevin.hide();
     else if (person === 'stephen')
       this.refs.stephen.hide();
-    else if (person === 'mike')
-      this.refs.mike.hide();
     else if (person === 'ashkahn')
       this.refs.ashkahn.hide();
     else if (person === 'graham')
@@ -47,9 +40,27 @@ let Speakers = React.createClass({
   render() {
     return (
       <section className="section speakers">
-        <ScrollableAnchor id={'speakers'}>
         <div className="container">
           <h3 className="title is-2 has-text-centered">Speakers</h3>
+          <div className="columns">
+            <div className="column">
+              <div className="content has-text-centered">
+                <img className="circle" onClick={() => this.showModal('stephen')}  src={StephenJohnsonImage} alt="Rise Float Conference Speaker Stephen Johnson"/>
+                <h3 onClick={() => this.showModal('stephen')} >Floating and the Broadening of Empathy, Altruism, and Love</h3>
+                <h3 onClick={() => this.showModal('stephen')} >Stephen Johnson</h3>
+                <p>Psychiatric Nurse, Fascial Anatomist, and Philosopher</p>
+              </div>
+              <Modal ref="stephen" backdropStyle={{'backgroundColor' : 'rgba(10, 10, 10, 0.75)'}}>
+                <section className="modal-card-body has-text-centered">
+                  <h3 className="modal-card-title">Floating and the Broadening of Empathy, Altruism, and Love</h3>
+                  <button className="delete" onClick={() => this.hideModal('stephen')}></button>
+                  <h4>Sat Apr 29 at 9:30 am — 10:00</h4>
+                  <br/>
+                  <p>An invitation to partake in the upcoming book project- A deeper exploration of the Protean Potential state experienced in the tank through a survey of multiple forms of scientific research, origin and comparative religions, philosophical and poetic forays, current meditative, therapeutic and transpersonal practices, and how floating can be a place for the exploration of consciousness and the broadening of empathy, altruism and love.</p>
+                </section>
+              </Modal>
+            </div>
+          </div>
           <div className="columns">
             <div className="column">
               <div className="content has-text-centered">
@@ -87,45 +98,8 @@ let Speakers = React.createClass({
                 </Modal>
               </div>
             </div>
-            <div className="column">
-              <div className="content has-text-centered">
-                <img className="circle" onClick={() => this.showModal('stephen')}  src={StephenJohnsonImage} alt="Rise Float Conference Speaker Stephen Johnson"/>
-                <h3 onClick={() => this.showModal('stephen')} >Stephen Johnson</h3>
-                <p>Psychiatric Nurse, Fascial Anatomist, and Philosopher</p>
-              </div>
-              <Modal ref="stephen" backdropStyle={{'backgroundColor' : 'rgba(10, 10, 10, 0.75)'}}>
-                <section className="modal-card-body has-text-centered">
-                  <h3 className="modal-card-title">Stephen Johnson</h3>
-                  <br/>
-                  <button className="delete" onClick={() => this.hideModal('stephen')}></button>
-                  <img className="circle" src={StephenJohnsonImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
-                  <br/><br/>
-                  <p>Stephen Johnson has been a boxer, modern dancer, actor, coach and trainer. He has worked as a Psychiatric Nurse for 27 years, and conducted a private practice as a Structural Integrator for over 20 years. He is an Anatomist specializing in Fascial Anatomy, has conducted research, and taught at various schools. He is a Bio Somatic Movement educator, a yoga teacher in the Ashtanga style, a long time meditator in both Soto and Rinzai traditions and a practitioner of Tai Chi / Qi Gong.</p>
-                </section>
-              </Modal>
-            </div>
           </div>
           <div className="columns">
-            <div className="column">
-              <div className="content has-text-centered">
-                <img className="circle" onClick={() => this.showModal('mike')} src={MikeZaremba} alt="Rise Float Conference Speaker Mike Zaremba"/>
-                <h3 onClick={() => this.showModal('mike')}>Mike Zaremba</h3>
-                <p>Co-Founder of <a href="http://www.floathouse.com" target="_blank">Float House</a></p>
-                <a href="https://twitter.com/Float_House" target="_blank">@Float_House</a>
-              </div>
-              <Modal ref="mike" backdropStyle={{'backgroundColor' : 'rgba(10, 10, 10, 0.75)'}}>
-                <section className="modal-card-body has-text-centered">
-                  <h3 className="modal-card-title">Mike Zaremba</h3>
-                  <br/>
-                  <button className="delete" onClick={() => this.hideModal('mike')}></button>
-                  <img className="circle" src={MikeZaremba} alt="Rise Float Conference Speaker Mike Zaremba"/>
-                  <br/><br/>
-                  <p>Mike Zaremba is the co-founder of <a href="http://www.floathouse.com" target="_blank">Float House</a>, Vancouver’s 1st commercial float centre in over 20 years. Float House opened in 2013 and has expanded to 6 locations across BC and Alberta as a part of a multi-owner partnership program. Float House was a significant catalyst in the resurgence of the float industry creating one of the largest centers at the time in North America with industry leading branding and marketing.</p>
-                  <p>Mike is also the host of a podcast called Vancouver Real which is a talk-show found on iTunes, Stitcher Radio, YouTube and Facebook with over 100 episodes.</p>
-                  <p> Mike lives in North Vancouver with his partner, Jessica, and enjoys an active lifestyle holistically-based. He enjoys travelling to all parts of the globe, exploring cultures and dissolving into the power of Nature.</p>
-                </section>
-              </Modal>
-            </div>
             <div className="column">
               <div className="content has-text-centered">
                 <img className="circle" onClick={() => this.showModal('ashkahn')} src={AshkahnJahromiImage} alt="Rise Float Conference Speaker Ashkahn Jahromi"/>
@@ -137,7 +111,7 @@ let Speakers = React.createClass({
                     <h3 className="modal-card-title">Ashkahn Jahromi</h3>
                     <br/>
                     <button className="delete" onClick={() => this.hideModal('ashkahn')}></button>
-                    <img className="circle" src={AshkahnJahromiImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
+                    <img className="circle" src={AshkahnJahromiImage} alt="Rise Float Conference Speaker Ashkahn Jahromi"/>
                     <br/><br/>
                     <p>Ashkahn is one of the co-founders of <a href="https://floathq.com" target="_blank">Float On</a> in Portland, Oregon. He's been in the float scene since Float On opened it's doors in 2010 and has been loving every minute of it. Over the years Ashkahn has dealt with so many salty messes that at this point he thinks he may be more salt than man. In his off time Ashkahn enjoys practicing the kazoo, eating popcorn, and learning everything he can about octopuses (did you know they have more neurons in their tentacles than they do in their brain?). He's super excited to come out to The Big Louis (he's pretty sure people call it that).</p>
                   </section>
@@ -155,7 +129,7 @@ let Speakers = React.createClass({
                     <h3 className="modal-card-title">Graham Talley</h3>
                     <br/>
                     <button className="delete" onClick={() => this.hideModal('graham')}></button>
-                    <img className="circle" src={GrahamTalleyImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
+                    <img className="circle" src={GrahamTalleyImage} alt="Rise Float Conference Speaker Graham Talley"/>
                     <br/><br/>
                     <p>Graham is one of the Co Founders of <a href="https://floathq.com" target="_blank">Float On</a>, Float Tank Solutions, the Float Conference, and a handful of other salty endeavors. He has been lecturing for over a decade on small business, happiness, and (most recently) float tanks. Graham's interests and areas of expertise extend from water sanitation to treasure hunts, from complex systems design to experimental theater. He is thrilled to come out to St. Louis, hang out, and exchange ideas with other members of our magical industry.</p>
                   </section>
@@ -169,7 +143,6 @@ let Speakers = React.createClass({
             </div>
           </div>
         </div>
-        </ScrollableAnchor>
       </section>
     );
   }

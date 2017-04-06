@@ -52,7 +52,7 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 29, 9, 30, 0)
                   },
                   {
-                    'title': 'Stephen Johnson',
+                    'title': 'Floating and the Broadening of Empathy, Altruism, and Love - Stephen Johnson',
                     'start': new Date(2017, 3, 29, 9, 30, 0),
                     'end': new Date(2017, 3, 29, 10, 0, 0)
                   },
@@ -92,7 +92,7 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 29, 15, 15, 0)
                   },
                   {
-                    'title': 'Mike and Andy Zaremba',
+                    'title': 'TBD',
                     'start': new Date(2017, 3, 29, 15, 15, 0),
                     'end': new Date(2017, 3, 29, 16, 0, 0)
                   },
