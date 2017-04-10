@@ -13,7 +13,8 @@ import StephenJohnsonImage from '../assets/stephen-johnson.png';
 import KevinJohnsonImage from '../assets/kevin-johnson.png';
 import GrahamTalleyImage from '../assets/graham-talley-rise-speaker.png';
 import AshkahnJahromiImage from '../assets/ashkahn-jahromi-rise-speaker.png';
-import LeePerry from '../assets/lee-perry.png';
+import LeePerryImage from '../assets/lee-perry.png';
+import RichardBonkImage from '../assets/richard-bonk.png';
 
 let Speakers = React.createClass({
   render() {
@@ -45,7 +46,7 @@ let Speakers = React.createClass({
             <ScrollableAnchor id={'lee'}>
               <div className="columns">
                 <div className="column is-one-third has-text-centered">
-                  <img className="circle" src={LeePerry} alt="Rise Float Conference Speaker Lee Perry"/>
+                  <img className="circle" src={LeePerryImage} alt="Rise Float Conference Speaker Lee Perry"/>
                 </div>
                 <div className="column">
                   <div className="content">
@@ -55,6 +56,24 @@ let Speakers = React.createClass({
                     <p>Coming soon</p>
                     <p><strong>Bio:</strong></p>
                     <p>Lee Perry, as president of the <a href="http://www.samadhitank.com/" target="_blank">Samadhi Tank Company</a>, has spent the last 40 years working to keep the business of floating a journey into the realm of service and adventure. As chairman of the board of the <a href="http://www.floatation.org/">Floatation Tank Association</a>, she focuses on advocating best practices, educating health departments on regulations for this industry, and supporting new float businesses.</p>
+                  </div>
+                </div>
+              </div>
+            </ScrollableAnchor>
+            <ScrollableAnchor id={'richard'}>
+              <div className="columns">
+                <div className="column is-one-third has-text-centered">
+                  <img className="circle" src={RichardBonkImage} alt="Rise Float Conference Speaker Richard Bonk"/>
+                </div>
+                <div className="column">
+                  <div className="content">
+                    <h2>Floating to Enlightenment</h2>
+                    <h3>Richard Bonk | <a href="https://twitter.com/floatgurubonk" target="_blank">@FloatGuruBonk</a></h3>
+                    <br/>
+                    <p><strong>Talk Summary:</strong></p>
+                    <p>Perhaps you have had an out of body experience while floating - or another out of the ordinary experience - and wondered what was that? Or perhaps you’d like to have such an experience and wondered how to make that happen? This presentation is offered as a teaser for an upcoming book of the same title, which will document the presenter’s experiences exploring the mind and examining the interrelationship between floatation, meditation, lucid dreaming and preparing for death. We will briefly touch bases on each of these 3 topics, how they are connected to floating, and each other, and the value they may present for investigating and understanding the mind, as well as possible applications. There will also be an invitation for YOU to participate in this collaborative work as psychonauts, phenomenologists and citizen scientists.</p>
+                    <p><strong>Bio:</strong></p>
+                    <p>Richard Bonk has a Masters degree in counseling, and works as a wellness coach facilitating a program for people with chronic health conditions, as well as meditation facilitator, workshop leader and artist. With a special interest in the intersection between body and mind, Richard utilizes techniques to enhance consciousness such as creativity, hypnosis, dream-work, yoga and mindfulness meditation. He is also one of the world’s few floatation elders, having floated for over 30 years and was involved in early research at the Medical College of Ohio in Toledo. There Richard developed a technique  - the Alternate Waking States Induction Method or AWSIM  - to facilitate lucid dreams and out of body experiences with about 80% regularity. Richard has helped established 2 successful float centers in the Twin Cities and is currently developing a non-profit. With a growing international community, he hopes to lead in providing opportunities uniting professional and citizen scientists (like YOU) to explore the “inner space” of consciousness and map the mind from the inside. Toward these ends Richard is currently leading a pilot study on floating for lucid dreams and is writing a book “Floating to Enlightenment,” documenting his experiences and exploring the interrelationship between floatation, meditation, lucid dreaming and preparing for death.</p>
                   </div>
                 </div>
               </div>

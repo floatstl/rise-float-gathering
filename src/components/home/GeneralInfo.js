@@ -14,7 +14,7 @@ let GeneralInfo = React.createClass({
               <p>4240 Duncan Ave</p>
               <p>St. Louis, MO 63110</p>
               <br/>
-              <p><strong>Near By Hotels</strong>: <a href="http://www.hotelignaciostl.com/" target="_blank">Hotel Ignacio</a> - <small>1.6 miles</small> | <a href="http://www.theparkwayhotel.com/" target="_blank">The Parkway Hotel</a> - <small>0.7 Mile</small></p>
+              <p><strong>Near By Hotels</strong>: <a href="http://www.hotelignaciostl.com/" target="_blank">Hotel Ignacio</a> - <small>1.6 miles</small> | <a href="https://res.windsurfercrs.com/bbe/page2.aspx?pcode=27365&propertyid=9697&nights=2&checkin=04/28/2017&group=7900" target="_blank">The Parkway Hotel</a> - <small>0.7 Mile</small></p>
               <p><small>See our <a href="https://www.facebook.com/events/1901297480100411/?active_tab=discussion" target="_blank">Facebook page</a> for discount details</small></p>
             </div>
             <div className="column">

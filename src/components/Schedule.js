@@ -92,7 +92,7 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 29, 15, 15, 0)
                   },
                   {
-                    'title': 'TBD',
+                    'title': 'Floating to Enlightenment - Richard Bonk',
                     'start': new Date(2017, 3, 29, 15, 15, 0),
                     'end': new Date(2017, 3, 29, 16, 0, 0)
                   },

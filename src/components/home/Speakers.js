@@ -5,23 +5,25 @@ import StephenJohnsonImage from '../../assets/stephen-johnson.png';
 import KevinJohnsonImage from '../../assets/kevin-johnson.png';
 import GrahamTalleyImage from '../../assets/graham-talley-rise-speaker.png';
 import AshkahnJahromiImage from '../../assets/ashkahn-jahromi-rise-speaker.png';
-import LeePerry from '../../assets/lee-perry.png';
+import LeePerryImage from '../../assets/lee-perry.png';
+import RichardBonkImage from '../../assets/richard-bonk.png';
 
 let Speakers = React.createClass({
 
   showModal: function(person) {
     console.log(person);
-    if (person === 'lee') {
+    if (person === 'lee')
       this.refs.lee.show();
-    } else if (person === 'kevin') {
+    else if (person === 'kevin')
       this.refs.kevin.show();
-    } else if (person === 'stephen') {
+    else if (person === 'stephen')
       this.refs.stephen.show();
-    } else if (person === 'ashkahn') {
+    else if (person === 'ashkahn')
       this.refs.ashkahn.show();
-    } else if (person === 'graham') {
+    else if (person === 'graham')
       this.refs.graham.show();
-    }
+    else if (person === 'richard')
+      this.refs.richard.show();
   },
 
   hideModal: function(person){
@@ -35,6 +37,8 @@ let Speakers = React.createClass({
       this.refs.ashkahn.hide();
     else if (person === 'graham')
       this.refs.graham.hide();
+    else if (person === 'richard')
+      this.refs.richard.hide();
   },
 
   render() {
@@ -54,17 +58,15 @@ let Speakers = React.createClass({
                 <section className="modal-card-body has-text-centered">
                   <h3 className="modal-card-title">Floating and the Broadening of Empathy, Altruism, and Love</h3>
                   <button className="delete" onClick={() => this.hideModal('stephen')}></button>
-                  <h4>Sat Apr 29 at 9:30 am — 10:00</h4>
+                  <h4>Sat Apr 29 at 9:30 am — 10:00 am</h4>
                   <br/>
                   <p>An invitation to partake in the upcoming book project- A deeper exploration of the Protean Potential state experienced in the tank through a survey of multiple forms of scientific research, origin and comparative religions, philosophical and poetic forays, current meditative, therapeutic and transpersonal practices, and how floating can be a place for the exploration of consciousness and the broadening of empathy, altruism and love.</p>
                 </section>
               </Modal>
             </div>
-          </div>
-          <div className="columns">
             <div className="column">
               <div className="content has-text-centered">
-                <img className="circle" src={LeePerry} alt="Rise Float Conference Speaker Lee Perry" onClick={() => this.showModal('lee')}/>
+                <img className="circle" src={LeePerryImage} alt="Rise Float Conference Speaker Lee Perry" onClick={() => this.showModal('lee')}/>
                 <h3 onClick={() => this.showModal('lee')}>Lee Perry</h3>
                 <p>President of <a href="http://www.samadhitank.com/" target="_blank">Samadhi Tank Company</a> & Chairman of the Board of the <a href="http://www.floatation.org/">Floatation Tank Association</a></p>
                 <Modal ref="lee" backdropStyle={{'backgroundColor' : 'rgba(10, 10, 10, 0.75)'}}>
@@ -72,13 +74,32 @@ let Speakers = React.createClass({
                     <h3 className="modal-card-title">Lee Perry</h3>
                     <br/>
                     <button className="delete" onClick={() => this.hideModal('lee')}></button>
-                    <img className="circle" src={LeePerry} alt="Rise Float Conference Speaker Lee Perry"/>
+                    <img className="circle" src={LeePerryImage} alt="Rise Float Conference Speaker Lee Perry"/>
                     <br/><br/>
                     <p>Lee Perry, as president of the <a href="http://www.samadhitank.com/" target="_blank">Samadhi Tank Company</a>, has spent the last 40 years working to keep the business of floating a journey into the realm of service and adventure. As chairman of the board of the <a href="http://www.floatation.org/">Floatation Tank Association</a>, she focuses on advocating best practices, educating health departments on regulations for this industry, and supporting new float businesses.</p>
                   </section>
                 </Modal>
               </div>
             </div>
+            <div className="column">
+              <div className="content has-text-centered">
+                <img className="circle" onClick={() => this.showModal('richard')}  src={RichardBonkImage} alt="Rise Float Conference Speaker Richard Bonk"/>
+                <h3 onClick={() => this.showModal('richard')} >Floating to Enlightenment</h3>
+                <h3 onClick={() => this.showModal('richard')} >Richard Bonk</h3>
+                <a href="https://twitter.com/floatgurubonk" target="_blank">@FloatGuruBonk</a>
+              </div>
+              <Modal ref="richard" backdropStyle={{'backgroundColor' : 'rgba(10, 10, 10, 0.75)'}}>
+                <section className="modal-card-body has-text-centered">
+                  <h3 className="modal-card-title">Floating to Enlightenment</h3>
+                  <button className="delete" onClick={() => this.hideModal('richard')}></button>
+                  <h4>Sat Apr 29 at 3:15 pm — 4:00 pm</h4>
+                  <br/>
+                  <p>Perhaps you have had an out of body experience while floating - or another out of the ordinary experience - and wondered what was that? Or perhaps you’d like to have such an experience and wondered how to make that happen? This presentation is offered as a teaser for an upcoming book of the same title, which will document the presenter’s experiences exploring the mind and examining the interrelationship between floatation, meditation, lucid dreaming and preparing for death. We will briefly touch bases on each of these 3 topics, how they are connected to floating, and each other, and the value they may present for investigating and understanding the mind, as well as possible applications. There will also be an invitation for YOU to participate in this collaborative work as psychonauts, phenomenologists and citizen scientists.</p>
+                </section>
+              </Modal>
+            </div>
+          </div>
+          <div className="columns">
             <div className="column">
               <div className="content has-text-centered">
               <img className="circle" onClick={() => this.showModal('kevin')} src={KevinJohnsonImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
@@ -98,8 +119,6 @@ let Speakers = React.createClass({
                 </Modal>
               </div>
             </div>
-          </div>
-          <div className="columns">
             <div className="column">
               <div className="content has-text-centered">
                 <img className="circle" onClick={() => this.showModal('ashkahn')} src={AshkahnJahromiImage} alt="Rise Float Conference Speaker Ashkahn Jahromi"/>

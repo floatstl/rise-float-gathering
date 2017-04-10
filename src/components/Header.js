@@ -20,7 +20,7 @@ let MobileMenu = React.createClass({
       <hr key="7"/>,
       <br key="8"/>,
       <span key="9" className="title is-4 bold">Resources</span>,
-      <a key="11" style={{fontSize: '1.2rem'}} href="/vendors-and-sponsors/"><span>Vendors & Sponsors</span></a>,
+      <a key="11" style={{fontSize: '1.2rem'}} href="/vendors-and-speakers/"><span>Vendors & Sponsors</span></a>,
       <a key="12" style={{fontSize: '1.2rem'}} href="https://floatingstl.com" target="_blank"><span>FLOAT STL</span></a>,
       <a key="13" style={{fontSize: '1.2rem'}} href="https://floatingstl.com/about/" target="_blank"><span>Meet the Team</span></a>,
       <hr key="14"/>,
