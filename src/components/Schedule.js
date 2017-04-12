@@ -37,7 +37,7 @@ let Schedule = React.createClass({
                  toolbar={false}
                  events={[
                   {
-                    'title': 'Rise Welcome Event - Triumph Grill @ Hotel Ignacio - http://triumphgrill.com/ | 3419 Olive',
+                    'title': 'Rise Welcome Event - Baiku @ Hotel Ignacio - http://baikustl.com | 3419 Olive',
                     'start': new Date(2017, 3, 28, 18, 30, 0),
                     'end': new Date(2017, 3, 28, 21, 0, 0)
                   },
@@ -52,7 +52,7 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 29, 9, 30, 0)
                   },
                   {
-                    'title': 'Floating and the Broadening of Empathy, Altruism, and Love - Stephen Johnson',
+                    'title': 'Floating and the Broadening of Empathy, Altruism, and Love | Stephen Johnson',
                     'start': new Date(2017, 3, 29, 9, 30, 0),
                     'end': new Date(2017, 3, 29, 10, 0, 0)
                   },
@@ -67,7 +67,7 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 29, 11, 0, 0)
                   },
                   {
-                    'title': 'Graham Talley and Ashkahn Jahromi',
+                    'title': 'Why Graham and Ashkahn are Probably Wrong About Almost Everything | Graham Talley and Ashkahn Jahromi',
                     'start': new Date(2017, 3, 29, 11, 0, 0),
                     'end': new Date(2017, 3, 29, 11, 45, 0)
                   },
@@ -87,22 +87,22 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 29, 14, 30, 0)
                   },
                   {
-                    'title': 'Kevin Johnson',
+                    'title': 'Seeing in the Dark | Kevin Johnson',
                     'start': new Date(2017, 3, 29, 14, 30, 0),
                     'end': new Date(2017, 3, 29, 15, 15, 0)
                   },
                   {
-                    'title': 'Floating to Enlightenment - Richard Bonk',
+                    'title': 'Floating to Enlightenment | Richard Bonk',
                     'start': new Date(2017, 3, 29, 15, 15, 0),
                     'end': new Date(2017, 3, 29, 16, 0, 0)
                   },
                   {
-                    'title': 'TBD',
+                    'title': 'My Journey | Gloria Morris',
                     'start': new Date(2017, 3, 29, 16, 0, 0),
                     'end': new Date(2017, 3, 29, 16, 30, 0)
                   },
                   {
-                    'title': 'Happy Hour - Venture Cafe at @4240 | 4240 Duncan',
+                    'title': 'Happy Hour - Venture Cafe at @4240',
                     'start': new Date(2017, 3, 29, 16, 30, 0),
                     'end': new Date(2017, 3, 29, 18, 30, 0)
                   },
@@ -123,7 +123,7 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 30, 9, 30, 0)
                   },
                   {
-                    'title': 'The Art of Floating - Discussion',
+                    'title': 'The Art of Floating - Discussion w Dylan Calm and Amy Grimes',
                     'start': new Date(2017, 3, 30, 9, 30, 0),
                     'end': new Date(2017, 3, 30, 10, 45, 0)
                   },

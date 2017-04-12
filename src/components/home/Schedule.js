@@ -19,7 +19,7 @@ let Schedule = React.createClass({
                     <img className="circle" src={ConnectImage} alt="Rise Float Conference: Connect"/>
                   </a>
                   <h3>Connect</h3>
-                  <p>On Friday, we’ll meet up for a networking happy hour at <a href="http://www.hotelignaciostl.com/" target="_blank">Hotel Ignacio</a>. You’ll meet industry leaders and passionate float center leaders.</p>
+                  <p>On Friday, we’ll meet up for a networking happy hour at <a href="http://baikustl.com" target="_blank">Baiku</a> inside of <a href="http://www.hotelignaciostl.com/" target="_blank">Hotel Ignacio</a>. You’ll meet industry leaders and passionate float center leaders.</p>
                 </div>
               </div>
               <div className="column">

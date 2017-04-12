@@ -103,18 +103,18 @@ let Speakers = React.createClass({
             <div className="column">
               <div className="content has-text-centered">
               <img className="circle" onClick={() => this.showModal('kevin')} src={KevinJohnsonImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
+                <h3 onClick={() => this.showModal('kevin')}>Seeing in the Dark</h3>
                 <h3 onClick={() => this.showModal('kevin')}>Kevin Johnson</h3>
                 <p>Owner of <a href="http://zerogravityinstitute.com/" target="_blank">Zero Gravity Float Rooms</a></p>
                 <a href="https://twitter.com/ZeroGravityInst" target="_blank">@ZeroGravityInst</a>
                 <Modal ref="kevin" backdropStyle={{'backgroundColor' : 'rgba(10, 10, 10, 0.75)'}}>
                   <section className="modal-card-body has-text-centered">
-                    <h3 className="modal-card-title">Kevin Johnson</h3>
+                    <h3 className="modal-card-title">Seeing in the Dark</h3>
                     <br/>
                     <button className="delete" onClick={() => this.hideModal('kevin')}></button>
-                    <img className="circle" src={KevinJohnsonImage} alt="Rise Float Conference Speaker Kevin Johnson"/>
-                    <br/><br/>
-                    <p>Kevin Johnson is the founder and CEO of <a href="http://zerogravityinstitute.com/" target="_blank">Zero Gravity Institute</a> in Austin, TX. ZGI is a state of the art floatation center and private research facility. He is also the designer and manufacturer of the new, technologically advanced <a href="http://zerogravityinstitute.com/float-room-sales/" target="_blank">Zero Gravity Float Rooms.</a></p>
-                    <p>Kevin has been floating since 1986, when he went to work for one of the world’s first commercial floatation centers. With a history of over 500 floats, including a recent research project titled “100 floats in 100 days”, Kevin brings a vast amount of knowledge, insight and experience to the world of floatation and the tank manufacturing industry.</p>
+                    <h4>Sat Apr 29 at 2:30 pm — 3:15 pm</h4>
+                    <br/>
+                    <p>The world stands at a precipice and it is brought here by the choices that we as a species have made. Most people don't realize that we are part of a much larger system than the one we see around us. Likewise, most do not understand that we have collectively agreed to be in exactly the position we are in. Because of this, each of us has a responsibility to express what we have a potential to become. By doing so, we chart a course for ourselves, our species, and our planet. This is a humbling thought. In this presentation, we will investigate how to use the floatation tank as a tool for cultivating a new kind of awareness. Work in the floatation tank is practical, non dogmatic, largely non dualistic and has no specific set of rules to follow. The practice is interactive, creative, constantly dynamic and based on what works in each session and each unique set of circumstances. By utilizing a few special techniques, we can learn to peel back the many layers of reality, see what lies beneath each one and understand more about the underlying nature of the universe. With responsible application of this new awareness, we can learn to affect and change our reality.</p>
                   </section>
                 </Modal>
               </div>
@@ -122,6 +122,7 @@ let Speakers = React.createClass({
             <div className="column">
               <div className="content has-text-centered">
                 <img className="circle" onClick={() => this.showModal('ashkahn')} src={AshkahnJahromiImage} alt="Rise Float Conference Speaker Ashkahn Jahromi"/>
+                <h3 onClick={() => this.showModal('ashkahn')}>Why Graham and Ashkahn are Probably Wrong About Almost Everything</h3>
                 <h3 onClick={() => this.showModal('ashkahn')}>Ashkahn Jahromi</h3>
                 <p>Co-Founder of <a href="https://floathq.com" target="_blank">Float On</a> & <a href="http://floatconference.com/" target="_blank">The Float Conference</a></p>
                 <a href="https://twitter.com/floathq" target="_blank">@floathq</a>
@@ -130,8 +131,7 @@ let Speakers = React.createClass({
                     <h3 className="modal-card-title">Ashkahn Jahromi</h3>
                     <br/>
                     <button className="delete" onClick={() => this.hideModal('ashkahn')}></button>
-                    <img className="circle" src={AshkahnJahromiImage} alt="Rise Float Conference Speaker Ashkahn Jahromi"/>
-                    <br/><br/>
+                    <br/>
                     <p>Ashkahn is one of the co-founders of <a href="https://floathq.com" target="_blank">Float On</a> in Portland, Oregon. He's been in the float scene since Float On opened it's doors in 2010 and has been loving every minute of it. Over the years Ashkahn has dealt with so many salty messes that at this point he thinks he may be more salt than man. In his off time Ashkahn enjoys practicing the kazoo, eating popcorn, and learning everything he can about octopuses (did you know they have more neurons in their tentacles than they do in their brain?). He's super excited to come out to The Big Louis (he's pretty sure people call it that).</p>
                   </section>
                 </Modal>
@@ -140,6 +140,7 @@ let Speakers = React.createClass({
             <div className="column">
               <div className="content has-text-centered">
                 <img className="circle" onClick={() => this.showModal('graham')} src={GrahamTalleyImage} alt="Rise Float Conference Speakers Graham Talley"/>
+                <h3 onClick={() => this.showModal('graham')}>Why Graham and Ashkahn are Probably Wrong About Almost Everything</h3>
                 <h3 onClick={() => this.showModal('graham')}>Graham Talley</h3>
                 <p>Co-Founder of <a href="https://floathq.com" target="_blank">Float On</a> & <a href="http://www.floattanksolutions.com/" target="_blank">Float Tank Solutions</a></p>
                 <a href="https://twitter.com/floathq" target="_blank">@floathq</a>
@@ -148,8 +149,7 @@ let Speakers = React.createClass({
                     <h3 className="modal-card-title">Graham Talley</h3>
                     <br/>
                     <button className="delete" onClick={() => this.hideModal('graham')}></button>
-                    <img className="circle" src={GrahamTalleyImage} alt="Rise Float Conference Speaker Graham Talley"/>
-                    <br/><br/>
+                    <br/>
                     <p>Graham is one of the Co Founders of <a href="https://floathq.com" target="_blank">Float On</a>, Float Tank Solutions, the Float Conference, and a handful of other salty endeavors. He has been lecturing for over a decade on small business, happiness, and (most recently) float tanks. Graham's interests and areas of expertise extend from water sanitation to treasure hunts, from complex systems design to experimental theater. He is thrilled to come out to St. Louis, hang out, and exchange ideas with other members of our magical industry.</p>
                   </section>
                 </Modal>

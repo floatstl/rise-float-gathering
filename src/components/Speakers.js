@@ -85,10 +85,11 @@ let Speakers = React.createClass({
                 </div>
                 <div className="column">
                   <div className="content">
-                  <h2>Kevin Johnson</h2>
+                  <h2>Seeing in the Dark</h2>
+                  <h3>Kevin Johnson</h3>
                   <h3>Owner of <a href="http://zerogravityinstitute.com/" target="_blank">Zero Gravity Float Rooms</a> | <a href="https://twitter.com/ZeroGravityInst" target="_blank">@ZeroGravityInst</a></h3>
                   <p><strong>Talk Summary:</strong></p>
-                  <p>Coming soon</p>
+                  <p>The world stands at a precipice and it is brought here by the choices that we as a species have made. Most people don't realize that we are part of a much larger system than the one we see around us. Likewise, most do not understand that we have collectively agreed to be in exactly the position we are in. Because of this, each of us has a responsibility to express what we have a potential to become. By doing so, we chart a course for ourselves, our species, and our planet. This is a humbling thought. In this presentation, we will investigate how to use the floatation tank as a tool for cultivating a new kind of awareness. Work in the floatation tank is practical, non dogmatic, largely non dualistic and has no specific set of rules to follow. The practice is interactive, creative, constantly dynamic and based on what works in each session and each unique set of circumstances. By utilizing a few special techniques, we can learn to peel back the many layers of reality, see what lies beneath each one and understand more about the underlying nature of the universe. With responsible application of this new awareness, we can learn to affect and change our reality.</p>
                   <p><strong>Bio:</strong></p>
                   <p>Kevin Johnson is the founder and CEO of <a href="http://zerogravityinstitute.com/" target="_blank">Zero Gravity Institute</a> in Austin, TX. ZGI is a state of the art floatation center and private research facility. He is also the designer and manufacturer of the new, technologically advanced <a href="http://zerogravityinstitute.com/float-room-sales/" target="_blank">Zero Gravity Float Rooms.</a></p>
                   <p>Kevin has been floating since 1986, when he went to work for one of the world’s first commercial floatation centers. With a history of over 500 floats, including a recent research project titled “100 floats in 100 days”, Kevin brings a vast amount of knowledge, insight and experience to the world of floatation and the tank manufacturing industry.</p>
@@ -104,7 +105,8 @@ let Speakers = React.createClass({
                 </div>
                 <div className="column">
                   <div className="content">
-                    <h2>Ashkahn Jahromi</h2>
+                    <h2>Why Graham and Ashkahn are Probably Wrong About Almost Everything.</h2>
+                    <h3>Ashkahn Jahromi</h3>
                     <h3>Co-Founder of <a href="https://floathq.com" target="_blank">Float On</a> & <a href="http://floatconference.com/" target="_blank">The Float Conference</a> | <a href="https://twitter.com/floathq" target="_blank">@floathq</a></h3>
                     <p><strong>Talk Summary:</strong></p>
                     <p>Coming soon</p>
@@ -121,7 +123,8 @@ let Speakers = React.createClass({
               </div>
               <div className="column">
                 <div className="content">
-                  <h2>Graham Talley</h2>
+                  <h2>Why Graham and Ashkahn are Probably Wrong About Almost Everything.</h2>
+                  <h3>Graham Talley</h3>
                   <h3>Co-Founder of <a href="https://floathq.com" target="_blank">Float On</a> & <a href="http://www.floattanksolutions.com/" target="_blank">Float Tank Solutions</a></h3>
                   <p><strong>Talk Summary:</strong></p>
                   <p>Coming soon</p>
