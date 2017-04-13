@@ -11,6 +11,8 @@ import FloatRoomsUSA from '../../assets/float-rooms-usa.png';
 import FloatTankSolutions from '../../assets/float-tank-solutions.png';
 import FloatHelm from '../../assets/float-helm.png';
 import SonixWellness from '../../assets/sonix-wellness.png';
+import CaliforniaFloatConcepts from '../../assets/california-float-concepts.png';
+import FloatBooth from '../../assets/float-booth.png';
 
 let Sponsors = React.createClass({
   render() {
@@ -43,6 +45,16 @@ let Sponsors = React.createClass({
           </div>
           <div className="columns">
             <div className="column">
+              <a href="http://floatbooth.com/" target="_blank">
+                <img src={FloatBooth} alt="Float Booth Website"/>
+              </a>
+            </div>
+            <div className="column">
+              <a href="http://www.cafloatconcepts.com/" target="_blank">
+                <img src={CaliforniaFloatConcepts} alt="California Float Concepts Website"/>
+              </a>
+            </div>
+            <div className="column">
               <a href="http://floatationlocations.com/" target="_blank">
                 <img src={FlotationLocations} alt="Flotation Locations Website"/>
               </a>
@@ -52,18 +64,13 @@ let Sponsors = React.createClass({
                 <img src={Conscious} alt="Flotation Locations Website"/>
               </a>
             </div>
+          </div>
+          <div className="columns">
             <div className="column">
               <a href="http://www.sonixwellness.com/" target="_blank">
                 <img src={SonixWellness} alt="Sonix Wellness Website"/>
               </a>
             </div>
-            <div className="column">
-              <a href="https://libbie.thebiomatcompany.com/site/" target="_blank">
-                <img src={BioMat} alt="BioMat Website"/>
-              </a>
-            </div>
-          </div>
-          <div className="columns">
             <div className="column">
               <a href="http://floathelm.com/" target="_blank">
                 <img src={FloatHelm} alt="Float Helm Website"/>
@@ -77,6 +84,11 @@ let Sponsors = React.createClass({
             <div className="column">
               <a href="http://floattanksolutions.com/" target="_blank">
                 <img src={FloatTankSolutions} alt="Float Tank Solutions Website"/>
+              </a>
+            </div>
+            <div className="column">
+              <a href="https://libbie.thebiomatcompany.com/site/" target="_blank">
+                <img src={BioMat} alt="BioMat Website"/>
               </a>
             </div>
           </div>
