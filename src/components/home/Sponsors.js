@@ -61,7 +61,7 @@ let Sponsors = React.createClass({
               </a>
             </div>
             <div className="column">
-              <a href="#" target="_blank">
+              <a href="http://tranquilsolutions.com/float-tank-fuel/" target="_blank">
                 <img src={PqSafeWater} alt="PQ Safe Water Website"/>
               </a>
             </div>
