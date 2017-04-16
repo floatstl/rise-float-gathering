@@ -13,6 +13,7 @@ import FloatHelm from '../../assets/float-helm.png';
 import SonixWellness from '../../assets/sonix-wellness.png';
 import CaliforniaFloatConcepts from '../../assets/california-float-concepts.png';
 import FloatBooth from '../../assets/float-booth.png';
+import PqSafeWater from '../../assets/pq-safe-water.png';
 
 let Sponsors = React.createClass({
   render() {
@@ -60,8 +61,13 @@ let Sponsors = React.createClass({
               </a>
             </div>
             <div className="column">
+              <a href="#" target="_blank">
+                <img src={PqSafeWater} alt="PQ Safe Water Website"/>
+              </a>
+            </div>
+            <div className="column">
               <a href="http://consciousapothecary.com/" target="_blank">
-                <img src={Conscious} alt="Flotation Locations Website"/>
+                <img src={Conscious} alt="Concious Apothecary Website"/>
               </a>
             </div>
           </div>
