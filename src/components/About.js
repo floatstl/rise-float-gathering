@@ -44,7 +44,7 @@ let About = React.createClass({
                   <blockquote><p>Check out our podcast with Art of the Float where Jake, Marcio and Kevin share their vision for Rise and The Heart of Floating</p></blockquote>
                 </a>
                 <br/><br/>
-                <a className="button is-large" href="https://soundcloud.com/art-of-the-float/rise-a-float-gathering#t=22:22" target="_blank">Listen Now</a>
+                <a className="button is-large" href="http://artofthefloat.com/2017/03/rise-float-gathering/?source=risefloatgathering.com" target="_blank">Listen Now</a>
               </div>
             </div>
           </div>

@@ -112,7 +112,7 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 30, 8, 30, 0)
                   },
                   {
-                    'title': 'Breakfast on site from Vincent Van Doughnuts',
+                    'title': 'Breakfast on site from Comet Coffee - http://cometcoffeestl.com/',
                     'start': new Date(2017, 3, 30, 8, 0, 0),
                     'end': new Date(2017, 3, 30, 9, 0, 0),
                     'desc': 'Pre-meeting meeting, to prepare for the meeting'
@@ -123,9 +123,9 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 30, 9, 30, 0)
                   },
                   {
-                    'title': 'The Art of Floating - Discussion w Dylan Calm and Amy Grimes',
+                    'title': 'Art of the Float Podcast - Discussion w Dylan Calm and Amy Grimes',
                     'start': new Date(2017, 3, 30, 9, 30, 0),
-                    'end': new Date(2017, 3, 30, 10, 45, 0)
+                    'end': new Date(2017, 3, 30, 10, 15, 0)
                   },
                   {
                     'title': 'Ambassador Panel',
