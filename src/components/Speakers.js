@@ -15,6 +15,8 @@ import GrahamTalleyImage from '../assets/graham-talley-rise-speaker.png';
 import AshkahnJahromiImage from '../assets/ashkahn-jahromi-rise-speaker.png';
 import LeePerryImage from '../assets/lee-perry.png';
 import RichardBonkImage from '../assets/richard-bonk.png';
+import DylanCalmImage from '../assets/dylan.png';
+import AmyGrimesImage from '../assets/amy.png';
 
 let Speakers = React.createClass({
   render() {
@@ -98,41 +100,46 @@ let Speakers = React.createClass({
                 </div>
               </div>
             </ScrollableAnchor>
-            <ScrollableAnchor id={'ashkahn'}>
+            <ScrollableAnchor id={'ashkahn-and-graham'}>
               <div className="columns">
                 <div className="column is-one-third has-text-centered">
                   <img className="circle" src={AshkahnJahromiImage} alt="Rise Float Conference Speaker Ashkahn Jahromi"/>
+                  <br/><br/><br/><br/>
+                  <img className="circle" onClick={() => this.showModal('graham')} src={GrahamTalleyImage} alt="Rise Float Conference Speakers Graham Talley"/>
                 </div>
                 <div className="column">
                   <div className="content">
                     <h2>Why Graham and Ashkahn are Probably Wrong About Almost Everything.</h2>
-                    <h3>Ashkahn Jahromi</h3>
-                    <h3>Co-Founder of <a href="https://floathq.com" target="_blank">Float On</a> & <a href="http://floatconference.com/" target="_blank">The Float Conference</a> | <a href="https://twitter.com/floathq" target="_blank">@floathq</a></h3>
+                    <h3>Ashkahn Jahromi | Co-Founder of <a href="https://floathq.com" target="_blank">Float On</a> & <a href="http://floatconference.com/" target="_blank">The Float Conference</a> | <a href="https://twitter.com/floathq" target="_blank">@floathq</a></h3>
+                    <h3>Graham Talley | Co-Founder of <a href="https://floathq.com" target="_blank">Float On</a> & <a href="http://www.floattanksolutions.com/" target="_blank">Float Tank Solutions</a></h3>
                     <p><strong>Talk Summary:</strong></p>
                     <p>Coming soon</p>
-                    <p><strong>Bio:</strong></p>
+                    <p><strong>Ashkahn's Bio:</strong></p>
                     <p>Ashkahn is one of the co-founders of <a href="https://floathq.com" target="_blank">Float On</a> in Portland, Oregon. He's been in the float scene since Float On opened it's doors in 2010 and has been loving every minute of it. Over the years Ashkahn has dealt with so many salty messes that at this point he thinks he may be more salt than man. In his off time Ashkahn enjoys practicing the kazoo, eating popcorn, and learning everything he can about octopuses (did you know they have more neurons in their tentacles than they do in their brain?). He's super excited to come out to The Big Louis (he's pretty sure people call it that).</p>
+                    <p><strong>Graham's Bio:</strong></p>
+                    <p>Graham is one of the Co Founders of <a href="https://floathq.com" target="_blank">Float On</a>, Float Tank Solutions, the Float Conference, and a handful of other salty endeavors. He has been lecturing for over a decade on small business, happiness, and (most recently) float tanks. Graham's interests and areas of expertise extend from water sanitation to treasure hunts, from complex systems design to experimental theater. He is thrilled to come out to St. Louis, hang out, and exchange ideas with other members of our magical industry.</p>
                   </div>
                 </div>
               </div>
             </ScrollableAnchor>
-            <ScrollableAnchor id={'graham'}>
-            <div className="columns">
-              <div className="column is-one-third has-text-centered">
-                <img className="circle" onClick={() => this.showModal('graham')} src={GrahamTalleyImage} alt="Rise Float Conference Speakers Graham Talley"/>
-              </div>
-              <div className="column">
-                <div className="content">
-                  <h2>Why Graham and Ashkahn are Probably Wrong About Almost Everything.</h2>
-                  <h3>Graham Talley</h3>
-                  <h3>Co-Founder of <a href="https://floathq.com" target="_blank">Float On</a> & <a href="http://www.floattanksolutions.com/" target="_blank">Float Tank Solutions</a></h3>
-                  <p><strong>Talk Summary:</strong></p>
-                  <p>Coming soon</p>
-                  <p><strong>Bio:</strong></p>
-                  <p>Graham is one of the Co Founders of <a href="https://floathq.com" target="_blank">Float On</a>, Float Tank Solutions, the Float Conference, and a handful of other salty endeavors. He has been lecturing for over a decade on small business, happiness, and (most recently) float tanks. Graham's interests and areas of expertise extend from water sanitation to treasure hunts, from complex systems design to experimental theater. He is thrilled to come out to St. Louis, hang out, and exchange ideas with other members of our magical industry.</p>
+            <ScrollableAnchor id={'ashkahn-and-graham'}>
+              <div className="columns">
+                <div className="column is-one-third has-text-centered">
+                  <img className="circle" src={DylanCalmImage} alt="Rise Float Conference Speakers Dylan Calm"/>
+                  <br/><br/><br/><br/>
+                  <img className="circle" src={AmyGrimesImage} alt="Rise Float Conference Speaker Amy Grimes"/>
+                </div>
+                <div className="column">
+                  <div className="content">
+                    <h2>Art of the Float Podcast Discussion</h2>
+                    <h3>Dylan Calm & Amy Grimes | <a href="https://twitter.com/artofthefloat" target="_blank">@artofthefloat</a></h3>
+                    <p><strong>Dylan's Bio:</strong></p>
+                    <p>Unsatisfied with the world IT and empowered by his now wife Sandra, the goal of creating a holistic wellness center with a focus around float tanks was born. On December 14th, 2011 Dylan and wife Sandra opened the a float center with 2 float tanks. Today, the <a href="http://www.floatshoppe.com/" target="_blank">Float Shoppe</a> is an integrative wellness center which encompasses a total of six modalities. Dylan began blogging about running a float center in 2013 and helped expand it into <a href="https://artofthefloat.com/podcast/" target="_target">Art of the Float Podcast</a> in 2015. Today, most of his thoughts are geared towards refining the Float Shoppe and raising float center owner awareness and education with Art of the Float. </p>
+                    <p><strong>Amys's Bio:</strong></p>
+                    <p>Amy Grimes Co-owns Float Nashville. Float Nashville is thriving and is currently in the process of expanding to multiple locations. Amy herself has spent over ten years in marketing before joining the float center owner community. Amy Joined <a href="https://artofthefloat.com/podcast/" target="_target">Art of the Float Podcast</a> as a co-host in 2015.</p>
+                  </div>
                 </div>
               </div>
-            </div>
             </ScrollableAnchor>
           </div>
         </section>

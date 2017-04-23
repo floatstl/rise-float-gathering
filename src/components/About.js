@@ -39,7 +39,7 @@ let About = React.createClass({
               <br/>
               <br/>
               <div className="podcast has-text-centered">
-                <a href="https://soundcloud.com/art-of-the-float/rise-a-float-gathering#t=22:22" target="_blank">
+                <a href="http://artofthefloat.com/2017/03/rise-float-gathering/?source=risefloatgathering.com" target="_blank">
                   <img src={ArtOfFloat} alt="Art of the Float Podcast Featuring Kevin, Jake and Marcio from Rise"/><br/><br/>
                   <blockquote><p>Check out our podcast with Art of the Float where Jake, Marcio and Kevin share their vision for Rise and The Heart of Floating</p></blockquote>
                 </a>
