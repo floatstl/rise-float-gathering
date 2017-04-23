@@ -122,7 +122,7 @@ let Speakers = React.createClass({
                 </div>
               </div>
             </ScrollableAnchor>
-            <ScrollableAnchor id={'ashkahn-and-graham'}>
+            <ScrollableAnchor id={'dylan-and-amy'}>
               <div className="columns">
                 <div className="column is-one-third has-text-centered">
                   <img className="circle" src={DylanCalmImage} alt="Rise Float Conference Speakers Dylan Calm"/>
