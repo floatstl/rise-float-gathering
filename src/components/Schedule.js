@@ -57,7 +57,7 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 29, 10, 0, 0)
                   },
                   {
-                    'title': 'Lee Perry',
+                    'title': 'In the Province of My Mind | Lee Perry',
                     'start': new Date(2017, 3, 29, 10, 0, 0),
                     'end': new Date(2017, 3, 29, 10, 35, 0)
                   },
@@ -107,7 +107,7 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 29, 18, 30, 0)
                   },
                   {
-                    'title': '(Optional) Morning Yoga',
+                    'title': 'Morning Yoga',
                     'start': new Date(2017, 3, 30, 7, 30, 0),
                     'end': new Date(2017, 3, 30, 8, 30, 0)
                   },
