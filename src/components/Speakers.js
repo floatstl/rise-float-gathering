@@ -127,12 +127,12 @@ let Speakers = React.createClass({
                 </div>
                 <div className="column">
                   <div className="content">
-                    <h2>My Journey</h2>
-                    <h3>Gloria Morriss</h3>
-                    <h4>Founder <a href="http://www.floatsixty.com/" target="_blank">Float Sixty</a>, Director at <a href="https://www.actioniq.com/" target="_blank">ActionIQ</a> | <a href="hhttps://twitter.com/ghip" target="_blank">@ghip</a></h4>
-                    <p>When technology and analytics pro Gloria Morris agreed to “try something new” on a date with her then boyfriend and now husband, Munster Native Bobby Morris, little did she know the occasion would be life-changing.  Just nine months from trying float therapy she opened the doors of Float Sixty Chicago where she is healing conditions of stress, anxiety, pain, swelling, insomnia and jet lag with notable clients from professional athletes to corporate executives.</p>
-                    <p>Gloria is also active in the technology space and has been for the last 12 years.  She is now serving as a Director for ActionIQ, a startup strongly backed by large VCs specializing in big data and consumer analytics.</p>
-                    <p>Since starting her first business in 2002, Morris has helped dozens of high-profile clients in marketing, technology strategy, customer relationship management and big data analytics. Morris conferred her Masters degree from DePaul University Chicago in 2015 and studied at the DePaul Institute of Science and Technology in Kerala, India.</p>
+                    <h2>Zero to Sixty in Nine Months</h2>
+                    <h3>Gloria Morris</h3>
+                    <h4>Founder <a href="http://www.floatsixty.com/" target="_blank">Float Sixty</a>, Director at <a href="https://www.actioniq.com/" target="_blank">ActionIQ</a> | <a href="https://twitter.com/ghip" target="_blank">@ghip</a></h4>
+                    <p>When technology and analytics pro Gloria Morris agreed to “try something new” in 2015, little did she know the occasion would be life-changing. Just nine months from trying float therapy she opened the doors of Float Sixty in Chicago where she is healing conditions of stress, anxiety, pain, swelling, insomnia and jet lag with notable clients from professional athletes to corporate executives.</p>
+                    <p>Gloria is also active in the technology space and has been for the last 12 years. She serves as a Director for ActionIQ, a startup strongly backed by large VCs specializing in big data and consumer analytics.</p>
+                    <p>Since starting her first business in 2002, Morris has helped dozens of high-profile clients in marketing, technology strategy, customer relationship management and big data analytics. Morris conferred her Masters degree from DePaul University Chicago in 2015 and studied at the DePaul Institute of Science and Technology in Kerala, India. Chat Conversation End</p>
                   </div>
                 </div>
               </div>

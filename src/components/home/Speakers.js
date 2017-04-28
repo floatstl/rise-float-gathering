@@ -74,10 +74,10 @@ let Speakers = React.createClass({
                 <a href="/speakers/#gloria">
                   <img className="circle" src={GloriaMorrisImage} alt="Rise Float Conference Speakers Graham Talley"/>
                 </a>
-                <h2>My Journey</h2>
+                <h2>Zero to Sixty in Nine Months</h2>
                 <h3>Gloria Morris</h3>
                 <p>Founder <a href="http://www.floatsixty.com/" target="_blank">Float Sixty</a>, Director at <a href="https://www.actioniq.com/" target="_blank">ActionIQ</a></p>
-                <a href="hhttps://twitter.com/ghip" target="_blank">@ghip</a>
+                <a href="https://twitter.com/ghip" target="_blank">@ghip</a>
               </div>
             </div>
           </div>

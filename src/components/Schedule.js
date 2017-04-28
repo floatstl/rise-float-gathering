@@ -38,7 +38,7 @@ let Schedule = React.createClass({
                  events={[
                   {
                     'title': 'Rise Welcome Event - Baiku @ Hotel Ignacio - http://baikustl.com | 3419 Olive',
-                    'start': new Date(2017, 3, 28, 18, 30, 0),
+                    'start': new Date(2017, 3, 28, 19, 0, 0),
                     'end': new Date(2017, 3, 28, 21, 0, 0)
                   },
                   {
@@ -97,7 +97,7 @@ let Schedule = React.createClass({
                     'end': new Date(2017, 3, 29, 16, 0, 0)
                   },
                   {
-                    'title': 'My Journey | Gloria Morris',
+                    'title': 'Zero to Sixty in Nine Months | Gloria Morris',
                     'start': new Date(2017, 3, 29, 16, 0, 0),
                     'end': new Date(2017, 3, 29, 16, 30, 0)
                   },
