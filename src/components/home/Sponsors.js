@@ -14,6 +14,7 @@ import SonixWellness from '../../assets/sonix-wellness.png';
 import CaliforniaFloatConcepts from '../../assets/california-float-concepts.png';
 import FloatBooth from '../../assets/float-booth.png';
 import PqSafeWater from '../../assets/pq-safe-water.png';
+import ProFloatInc from '../../assets/pro-float-inc.png';
 
 let Sponsors = React.createClass({
   render() {
@@ -41,6 +42,11 @@ let Sponsors = React.createClass({
             <div className="column">
               <a href="http://floatroomsusa.com/" target="_blank">
                 <img src={FloatRoomsUSA} alt="Float Rooms USA Website"/>
+              </a>
+            </div>
+            <div className="column">
+              <a href="http://www.profloatinc.com/" target="_blank">
+                <img src={ProFloatInc} alt="Pro Float Inc. Website"/>
               </a>
             </div>
           </div>
