@@ -123,10 +123,10 @@ let MobileMenu = React.createClass({
                   <a href="/"><span><img src={logo} alt="Rise - A Float Community Gathering Logo White" /></span></a>
                 </div>
                 <div className="column is-one-fifth menu-item">
-                  <a href="/speakers/">2017 Speakers</a>
+                  <a href="/speakers/">Speakers</a>
                 </div>
                 <div className="column is-one-fifth menu-item">
-                  <a href="/schedule/">2017 Schedule</a>
+                  <a href="/schedule/">Schedule</a>
                 </div>
                 <div className="column is-one-fifth menu-item">
                   <a href="/about/">About</a>
