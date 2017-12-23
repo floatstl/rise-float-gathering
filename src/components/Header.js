@@ -15,7 +15,7 @@ let MobileMenu = React.createClass({
       <a key="3"  href="/schedule/">Schedule</a>,
       <a key="10" href="/about/">About</a>,
       <br key="4"/>,
-      <a key="5" className="button is-large" href="https://rise.bazaarpass.com/products/2017" target="_blank">Get Tickets</a>,
+      <a key="5" className="button is-large" href="https://rise.bazaarpass.com/products/2018" target="_blank">Get Tickets</a>,
       <br key="6"/>,
       <hr key="7"/>,
       <br key="8"/>,
