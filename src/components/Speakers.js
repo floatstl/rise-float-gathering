@@ -26,7 +26,7 @@ let Speakers = React.createClass({
         <Header/>
         <section className="section speakers-page">
           <div className="container">
-            <h1 className="title is-2 has-text-centered">Speakers</h1>
+            <h1 className="title is-2 has-text-centered">2017 Speakers</h1>
             <ScrollableAnchor id={'stephen'}>
               <div className="columns">
                 <div className="column is-one-third has-text-centered">

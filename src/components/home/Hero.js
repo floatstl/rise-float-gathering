@@ -9,7 +9,7 @@ let Hero = React.createClass({
             A Float Community Gathering
           </h1>
           <h2 className="subtitle is-3">
-            April 28th - 30th, 2017 | St. Louis, MO
+            April 21st & 22nd, 2018 | St. Louis, MO
           </h2>
           <p>Rise is a gathering of float industry enthusiasts and professionals to connect, discover and relax.</p>
         </div>

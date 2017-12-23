@@ -13,7 +13,7 @@ let Speakers = React.createClass({
     return (
       <section className="section speakers">
         <div className="container">
-          <h3 className="title is-2 has-text-centered">Speakers</h3>
+          <h3 className="title is-2 has-text-centered">Last Years Speakers</h3>
           <div className="columns">
             <div className="column">
               <div className="content has-text-centered">

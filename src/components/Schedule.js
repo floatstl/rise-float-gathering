@@ -25,7 +25,7 @@ let Schedule = React.createClass({
           <Header/>
           <section className="section schedule-details">
             <div className="container has-text-centered">
-              <h3 className="title is-2 has-text-centered">Schedule</h3><br/>
+              <h3 className="title is-2 has-text-centered">2017 Schedule</h3><br/>
               <BigCalendar
                  {...this.props}
                  style={{'height':'668px'}}
@@ -174,7 +174,7 @@ let Schedule = React.createClass({
                   <div className="content has-text-centered">
                     <img className="circle" src={ConnectImage} alt="Rise Float Conference Speaker Stephen Johnson"/>
                     <h3>Connect</h3>
-                    <p>On Friday, we’ll meet up for a networking happy hour at <a href="http://www.hotelignaciostl.com/" target="_blank">Hotel Ignacio</a>. You’ll meet industry leaders and passionate float center leaders.</p>
+                    <p>On Friday, we’ll meet up for a networking happy hour. You’ll meet industry leaders and passionate float center leaders.</p>
                   </div>
                 </div>
                 <div className="column">

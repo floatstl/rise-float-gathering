@@ -123,16 +123,16 @@ let MobileMenu = React.createClass({
                   <a href="/"><span><img src={logo} alt="Rise - A Float Community Gathering Logo White" /></span></a>
                 </div>
                 <div className="column is-one-fifth menu-item">
-                  <a href="/speakers/">Speakers</a>
+                  <a href="/speakers/">2017 Speakers</a>
                 </div>
                 <div className="column is-one-fifth menu-item">
-                  <a href="/schedule/">Schedule</a>
+                  <a href="/schedule/">2017 Schedule</a>
                 </div>
                 <div className="column is-one-fifth menu-item">
                   <a href="/about/">About</a>
                 </div>
                <div className="column is-one-fifth menu-item">
-                <a className="button is-large" href="https://rise.bazaarpass.com/products/2017" target="_blank">Buy Your Tickets</a>
+                <a className="button is-large" href="https://rise.bazaarpass.com/products/2018" target="_blank">Buy Your Tickets</a>
               </div>
               </div>
             </div>
